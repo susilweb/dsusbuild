@@ -15,8 +15,8 @@ const Guides = () => {
           name="robots"
           content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
         />
-        <link rel="canonical" href="https://www.dynamicssquare.co.uk/guides/" />
-        <meta property="og:locale" content="en_GB" />
+        <link rel="canonical" href="https://www.dynamicssquare.com/guides/" />
+        <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="article" />
         
       </Helmet>

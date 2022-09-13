@@ -20,9 +20,9 @@ const PdfpgDownload = () => {
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.co.uk/guides/download/power-guide-pdf/"
+          href="https://www.dynamicssquare.com/guides/download/power-guide-pdf/"
         />
-        <meta property="og:locale" content="en_GB" />
+        <meta property="og:locale" content="en_US" />
       </Helmet>
       <section className="Solution-banner hero-1 custom-pd-4">
         <div className="container">

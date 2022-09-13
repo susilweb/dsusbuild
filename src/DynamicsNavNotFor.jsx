@@ -13,9 +13,9 @@ const DynamicsNavNotFor = () => {
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.co.uk/not-for-profit-fundrasing-engagenment/"
+          href="https://www.dynamicssquare.com/not-for-profit-fundrasing-engagenment/"
         />
-        <meta property="og:locale" content="en_GB" />
+        <meta property="og:locale" content="en_US" />
       </Helmet>
 
       <section

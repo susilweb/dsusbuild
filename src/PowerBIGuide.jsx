@@ -283,7 +283,7 @@ const PowerBIGuide = () => {
                   is a business intelligence application that allows
                   organisations to{" "}
                   <ExternalLink
-                    href="https://www.dynamicssquare.com/blog/power-bi-reports/"
+                    href="https://www.dynamicssquare.com/blog/how-to-generate-interactive-reports-in-power-bi/"
                     rel=""
                     target="_self"
                   >
@@ -309,7 +309,7 @@ const PowerBIGuide = () => {
                 <p>
                   If yes, this{" "}
                   <ExternalLink
-                    href="https://www.dynamicssquare.com/blog/what-is-power-bi/"
+                    href="https://www.dynamicssquare.com/blog/an-introduction-to-microsoft-power-bi/"
                     target="_self"
                     rel=""
                   >
@@ -417,7 +417,7 @@ const PowerBIGuide = () => {
                   Microsoft Power BI is a business intelligence solution that
                   allows users to analyse the data,{" "}
                   <ExternalLink
-                    href="https://www.dynamicssquare.com/blog/power-bi-reports/"
+                    href="https://www.dynamicssquare.com/blog/how-to-generate-interactive-reports-in-power-bi/"
                     rel=""
                     target="_self"
                   >
@@ -519,7 +519,7 @@ const PowerBIGuide = () => {
                   <br className="mrg" />
                   Understanding{" "}
                   <ExternalLink
-                    href="https://www.dynamicssquare.com/blog/power-bi-architecture/"
+                    href="https://www.dynamicssquare.com/blog/power-bi-architecture-and-its-components-explained/"
                     rel=""
                     target="_self"
                   >
@@ -1761,18 +1761,8 @@ const PowerBIGuide = () => {
                 <ul>
                   <li>
                     The combination of these two powerful applications enhances
-                    the functionality of business intelligence and helps{" "}
-                    <ExternalLink
-                      href="https://www.dynamicssquare.com/blog/implement-power-bi-for-your-business/"
-                      target="_self"
-                      rel=""
-                    >
-                      users implement informed decisions
-                    </ExternalLink>{" "}
-                    based on true data insights. Both Microsoft applications
-                    improve operational speeds, reduce the likelihood of errors,
-                    enhance the customer experience, and provide valuable
-                    insights to the sales team.{" "}
+                    the functionality of business intelligence and helps
+                    users implement informed decisionsbased on true data insights. Both Microsoft applications improve operational speeds, reduce the likelihood of errors, enhance the customer experience, and provide valuable insights to the sales team.
                   </li>
                   <li>
                     It allows users to create real-time reports to make
@@ -2068,16 +2058,14 @@ const PowerBIGuide = () => {
                   <div className="body-in">
                     <h4>Per User/Month</h4>
                     <p>
-                      <span>Free / £0</span>
+                      <span>Free / $0</span>
                     </p>
                     <p>
-                      Users can create quick insights, understand the data, and
-                      share the visualisation using Power BI web portal.
+                    Users can create quick insights, understand the data, and share the visualization using Power BI web portal. 
                     </p>
                     <ul>
                       <li>
-                        Comes with Office 365 to streamline the data processing
-                        and visualisation.
+                      Comes with Office 365 to streamline the data processing and visualization.
                       </li>
                     </ul>
                   </div>
@@ -2089,11 +2077,10 @@ const PowerBIGuide = () => {
                   <div className="body-in">
                     <h4>Per User/Month </h4>
                     <p>
-                      <span>£7.50</span>
+                      <span>$13.70</span>
                     </p>
                     <p>
-                      Licence Power BI Pro individual for modern analytics with
-                      data visualisations.
+                    license Power BI Pro individual for modern analytics with data visualizations. 
                     </p>
                     <ul>
                       <li>
@@ -2118,7 +2105,7 @@ const PowerBIGuide = () => {
                   <div className="body-in">
                     <h4>Per User/Month</h4>
                     <p>
-                      <span>£15.10 </span>
+                      <span>$27.50</span>
                     </p>
                     <p>
                       Licence Power BI Premium (Per User) to accelerate data
@@ -2134,12 +2121,12 @@ const PowerBIGuide = () => {
                 </div>
                 <div className="new-Pricing">
                   <div className="head">
-                    <h3>Power BI Premium</h3>
+                    <h3>Power BI Premium Per Capacity</h3>
                   </div>
                   <div className="body-in">
                     <h4>Per Capacity/Month</h4>
                     <p>
-                      <span>£3,766.70</span>
+                      <span>$6,858.10</span>
                     </p>
                     <p>
                       Licence Power BI Premium (Per User) to accelerate data
@@ -2208,7 +2195,7 @@ const PowerBIGuide = () => {
                   <div className="body-in">
                     <h4>Per User/Month </h4>
                     <p>
-                      <span>£2.50</span>
+                      <span>$3</span>
                     </p>
                     <p>
                       Come with all the features of Power BI Desktop along with
@@ -2276,14 +2263,14 @@ const PowerBIGuide = () => {
                 </p>
                 <p>
                   The A1 node has 3 GB of RAM and can process 300 renders per
-                  hour. The cost it carries is <b>£0.85 per hour.</b>
+                  hour. The cost it carries is <b>$1.0081 per hour.</b>
                 </p>
                 <p>
                   <b>A4 Node:</b>
                 </p>
                 <p>
                   The A4 node comes with 25 GB of RAM and can process 4800
-                  renders per hour. It costs <b>£13 per hour.</b>
+                  renders per hour. It costs <b>$8.0565 per hour.</b>
                 </p>
                 <p>
                   This is the hourly rate for a user who can use Power BI
@@ -2587,7 +2574,7 @@ const PowerBIGuide = () => {
                   partner, and we can resolve all your queries to help you
                   understand the need for{" "}
                   <ExternalLink
-                    href="https://www.dynamicssquare.com/blog/why-power-bi-for-business/"
+                    href="https://www.dynamicssquare.com/blog/why-your-business-needs-power-bi/"
                     target="_self"
                     rel=""
                   >
