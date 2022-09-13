@@ -1,0 +1,114 @@
+
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteCond %{HTTPS} on
+RewriteRule ^(.*)$ /index.html [NC,L,QSA]
+</IfModule>
+<IfModule mod_rewrite.c>
+# Redirect to HTTP non-www to HTTPS www htaccess
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteRule ^(.*)$ http://www.dynamicssquare.co.uk/$1 [L,R=301]
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://www.dynamicssquare.co.uk/$1 [L,R=301]
+
+</IfModule>
+Options -Indexes
+Redirect 301 /7-best-practices-for-successful-erp-implementation/ /blog/7-best-practices-for-successful-erp-implementation/
+Redirect 301 /10-best-erp-systems-for-small-businesses/ /blog/10-best-erp-systems-for-small-businesses/
+Redirect 301 /shopify-connector-for-dynamics-365-business-central/ /blog/shopify-connector-for-dynamics-365-business-central/
+Redirect 301 /dynamics-365-storage-cost/ /blog/dynamics-365-storage-cost/
+Redirect 301 /why-microsoft-dynamics-nav-used-for/ /blog/why-microsoft-dynamics-nav-used-for/
+Redirect 301 /microsoft-dynamics-365-support/ /blog/microsoft-dynamics-365-support/
+Redirect 301 /microsoft-dynamics-365-business-central-for-manufacturing/ /blog/microsoft-dynamics-365-business-central-for-manufacturing/
+Redirect 301 /how-to-avail-the-dynamics-365-business-central-trial/ /blog/how-to-avail-the-dynamics-365-business-central-trial/
+Redirect 301 /what-is-business-central-implementation-methodology/ /blog/what-is-business-central-implementation-methodology/
+Redirect 301 /power-bi-vs-jet-reports/ /blog/power-bi-vs-jet-reports/
+Redirect 301 /perfect-guide-for-microsoft-dynamics-365-pricing-and-licensing/ /blog/perfect-guide-for-microsoft-dynamics-365-pricing-and-licensing/
+Redirect 301 /how-to-upgrade-microsoft-dynamics-nav-to-business-central/ /blog/how-to-upgrade-microsoft-dynamics-nav-to-business-central/
+Redirect 301 /dynamics-365-business-central-vs-dynamics-365-sales/ /blog/dynamics-365-business-central-vs-dynamics-365-sales/
+Redirect 301 /dynamics-365-business-central-vs-dynamics-365-crm/ /blog/dynamics-365-business-central-vs-dynamics-365-crm/
+Redirect 301 /business-central-vs-finance-and-supply-chain/ /blog/business-central-vs-finance-and-supply-chain/
+Redirect 301 /install-microsoft-dynamics-365-business-central-on-premises/ /blog/install-microsoft-dynamics-365-business-central-on-premises/
+Redirect 301 /microsoft-dynamics-crm-for-perfect-sales-management/ /blog/microsoft-dynamics-crm-for-perfect-sales-management/
+Redirect 301 /what-is-dynamics-365-supply-chain-management/ /blog/what-is-dynamics-365-supply-chain-management/
+Redirect 301 /what-makes-ms-dynamics-crm-so-good-for-customer-service/ /blog/what-makes-ms-dynamics-crm-so-good-for-customer-service/
+Redirect 301 /dynamics-365-business-central-2022-wave-1/ /blog/dynamics-365-business-central-2022-wave-1/
+Redirect 301 /why-your-business-needs-crm-software/ /blog/why-your-business-needs-crm-software/
+Redirect 301 /reasons-to-upgrade-accounting-software/ /blog/reasons-to-upgrade-accounting-software/
+Redirect 301 /microsoft-dynamics-ax-features/ /blog/microsoft-dynamics-ax-features/
+Redirect 301 /migrating-from-dynamics-ax-to-dynamics-365/ /blog/migrating-from-dynamics-ax-to-dynamics-365/
+Redirect 301 /dynamics-365-business-central-vs-gp/ /blog/dynamics-365-business-central-vs-gp/
+Redirect 301 /what-is-dynamics-365-business-central/ /blog/what-is-dynamics-365-business-central/
+Redirect 301 /power-bi-for-mac-learn-how-to-use-power-bi-on-mac-devices/ /blog/power-bi-for-mac-learn-how-to-use-power-bi-on-mac-devices/
+Redirect 301 /biggest-technology-trends/ /blog/biggest-technology-trends/
+Redirect 301 /dynamics-365-business-central-wave-2/ /blog/dynamics-365-business-central-wave-2/
+Redirect 301 /migrating-from-dynamicsgp-to-d365-businesscentral/ /blog/migrating-from-dynamicsgp-to-d365-businesscentral/
+Redirect 301 /how-successful-is-your-dynamics-nav-implementation/ /blog/how-successful-is-your-dynamics-nav-implementation/
+Redirect 301 /what-is-power-bi/ /blog/what-is-power-bi/
+Redirect 301 /implement-power-bi-for-your-business/ /blog/implement-power-bi-for-your-business/
+Redirect 301 /data-cleaning-in-power-bi/ /blog/data-cleaning-in-power-bi/
+Redirect 301 /power-bi-reports/ /blog/power-bi-reports/
+Redirect 301 /what-is-azure-iot-central/ /blog/what-is-azure-iot-central/
+Redirect 301 /power-bi-architecture/ /blog/power-bi-architecture/
+Redirect 301 /why-power-bi-for-business/ /blog/why-power-bi-for-business/
+Redirect 301 /what-is-azure-iot-hub/ /blog/what-is-azure-iot-hub/
+Redirect 301 /what-is-microsoft-azure-iot-internet-of-things/ /blog/what-is-microsoft-azure-iot-internet-of-things/
+Redirect 301 /what-is-microsoft-dynamics-365-finance/ /blog/what-is-microsoft-dynamics-365-finance/
+Redirect 301 /best-iot-platforms/ /blog/best-iot-platforms/
+Redirect 301 /upgrade-dynamics-nav-to-dynamics-365-business-central/ /blog/upgrade-dynamics-nav-to-dynamics-365-business-central/
+Redirect 301 /power-bi-features/ /blog/power-bi-features/
+Redirect 301 /how-to-choose-the-right-cloud-based-erp-crm-software/ /blog/how-to-choose-the-right-cloud-based-erp-crm-software/
+Redirect 301 /microsoft-dynamics-365-for-smart-marketing/ /blog/microsoft-dynamics-365-for-smart-marketing/
+Redirect 301 /dynamics-365-field-service-7-things-to-know-before-setting-up/ /blog/dynamics-365-field-service-7-things-to-know-before-setting-up/
+Redirect 301 /microsoft-dynamics-ax-for-distributors/ /blog/microsoft-dynamics-ax-for-distributors/
+Redirect 301 /dynamics-365-business-central-vs-great-plains/ /blog/dynamics-365-business-central-vs-great-plains/
+Redirect 301 /category/microsoft-dynamics-365/ /blog/category/microsoft-dynamics-365/
+Redirect 301 /category/business-central/ /blog/category/business-central/
+Redirect 301 /category/dynamics-365-finance/ /blog/category/dynamics-365-finance/
+Redirect 301 /category/customer-service/ /blog/category/customer-service/
+Redirect 301 /category/dynamics-365-sales/ /blog/category/dynamics-365-sales/
+Redirect 301 /category/supply-chain-management/ /blog/category/supply-chain-management/
+Redirect 301 /category/human-resource/ /blog/category/human-resource/
+Redirect 301 /category/field-service/ /blog/category/field-service/
+Redirect 301 /category/commerce/ /blog/category/commerce/
+Redirect 301 /category/marketing/ /blog/category/marketing/
+Redirect 301 /category/project-service-automation/ /blog/category/project-service-automation/
+Redirect 301 /category/power-bi/ /blog/category/power-bi/
+Redirect 301 /category/internet-of-things/ /blog/category/internet-of-things/
+Redirect 301 /category/erp/ /blog/category/erp/
+Redirect 301 /category/dynamics-crm/ /blog/category/dynamics-crm/
+Redirect 301 /category/dynamics-nav/ /blog/category/dynamics-nav/
+Redirect 301 /category/dynamics-ax/ /blog/category/dynamics-ax/
+Redirect 301 /products/microsoft-azure/dynamics-on-azure.html /
+Redirect 301 /products/microsoft-office-365.html /
+Redirect 301 /products/microsoft-dynamics-nav.html /
+Redirect 301 /products/microsoft-dynamics-365/mixed-reality/ /products/microsoft-dynamics-365-mixed-reality/
+Redirect 301 /products/microsoft-power-platform/power-automate/ /products/microsoft-power-automate/
+Redirect 301 /sitemap_index.xml /sitemap.xml
+Redirect 301 /enterprise-resource-planning.html /products/microsoft-dynamics-erp/
+Redirect 301 /products/microsoft-dynamics-ax.html /products/microsoft-dynamics-ax/
+Redirect 301 /microsoft-dynamics-365-finance-operations/ /products/microsoft-dynamics-365-finance-operations/
+Redirect 301 /products/microsoft-dynamics-365-business-central /products/dynamics-365-business-central/
+Redirect 301 /products/crm/ /products/microsoft-dynamics-crm/
+Redirect 301 /products/erp/ /products/microsoft-dynamics-erp/
+Redirect 301 /products/microsoft-dynamics-365-business-central/ /products/dynamics-365-business-central/
+Redirect 301 /microsoft-dynamics-365-finance/ /products/microsoft-dynamics-365-finance/
+Redirect 301 /azure-iot-edge /products/azure-iot-edge/
+Redirect 301 /e-book/upgrade-nav-to-business-central/ /ebook/upgrade-nav-to-business-central/
+RewriteEngine On
+RewriteCond %{SERVER_PORT} 80
+RewriteCond %{HTTPS_HOST} !^www\. [NC]
+RewriteRule ^(.*)$ https://www.dynamicssquare.co.uk/$1 [R=301,L,NE]
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “alt-php74” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-alt-php74___lsphp .php .php7 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit
