@@ -803,6 +803,9 @@ const Header = () => {
                       <a href="/case-studies/">Case Studies</a>
                     </li>
                     <li>
+                      <a href=" /guides/">Guides</a>
+                    </li>
+                    <li>
                       <a href="/webinars/">Webinars</a>
                     </li>
                   </ul>
@@ -1264,6 +1267,9 @@ const Header = () => {
                               <li>
                                 <a href="/case-studies/">Case Studies</a>
                               </li>
+                              <li>
+                      <a href=" /guides/">Guides</a>
+                    </li>
                               <li>
                                 <a href="/webinars/">Webinars</a>
                               </li>

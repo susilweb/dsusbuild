@@ -13,7 +13,7 @@ import ProjectOperations from "./ProjectOperations";
 import Marketing from "./Marketing";
 import Commerce from "./Commerce";
 import HumanResource from "./HumanResource";
-import Contact from "./Contact";
+// import Contact from "./Contact";
 import Career from "./Career";
 import WhyUs from "./WhyUs";
 import Header from "./Header";
@@ -115,6 +115,11 @@ import Form2 from "./Form2";
 import StartGuide from "./StartGuide";
 import Preregistration from "./Preregistration";
 import UseScript from "./UseScript";
+import PowerBIGuide from "./PowerBIGuide";
+import DynamicsNavNotFor from "./DynamicsNavNotFor";
+import Guides from "./Guides";
+import PdfpgDownload from "./PdfpgDownload";
+import DynamicsEmailerPowerBIGuide from "./DynamicsEmailerPowerBIGuide";
 
 const App = () => {
   return (
@@ -535,6 +540,27 @@ const App = () => {
           exact
           path="/thank-you-for-registration/"
           component={Preregistration}
+        />
+        <Route
+          exact
+          path="/guides/power-bi-guide-for-smb/"
+          component={PowerBIGuide}
+        />
+        <Route
+          exact
+          path="/not-for-profit-fundraising-engagement/"
+          component={DynamicsNavNotFor}
+        />
+        <Route exact path="/guides/" component={Guides} />
+        <Route
+          exact
+          path="/guides/download/power-guide-pdf"
+          component={PdfpgDownload}
+        />
+        <Route
+          exact
+          path="/emailer-power-bi/"
+          component={DynamicsEmailerPowerBIGuide}
         />
         <Route exact path="/components/" component={MyComponents} />
         <Route exact path="/form2/" component={Form2} />

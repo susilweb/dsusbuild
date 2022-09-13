@@ -674,7 +674,7 @@ const Sales = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>To access Dynamics 365 Sales Professional, you are required to sign in first. For doing so, simply follow: Microsoft 365 App Launcher->Dynamics 365 Make sure, you have availed of a subscription for Dynamics 365 Sales Professional plan. Further, navigate to Dynamics 365 home page and select Sales Professional. Now, your system is ready to start optimizing things. To learn more, connect with our professionals today, we are here to help.</p>
+                      <p>To access Dynamics 365 Sales Professional, you are required to sign in first. For doing so, simply follow: Microsoft 365 App Launcher-Dynamics 365 Make sure, you have availed of a subscription for Dynamics 365 Sales Professional plan. Further, navigate to Dynamics 365 home page and select Sales Professional. Now, your system is ready to start optimizing things. To learn more, connect with our professionals today, we are here to help.</p>
                     </div>
                   </div>
                 </div>
