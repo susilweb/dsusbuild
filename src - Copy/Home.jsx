@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useRef, useState,useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/free-mode";
@@ -7,7 +7,19 @@ import { Autoplay, FreeMode, Pagination } from "swiper";
 import AnimatedNumber from "react-animated-number";
 import { Helmet } from "react-helmet";
 import { Link, NavLink } from "react-router-dom";
+import Button from 'react-bootstrap/Button';
+import Modal from 'react-bootstrap/Modal';
+
 const Home = () => {
+  const [show, setShow] = useState(false);
+  useEffect(()=>{
+    setTimeout(()=>{
+      setShow(true)
+    }, 15000)
+  }, [])
+  const handleClose = () => setShow(false);
+  // const handleShow = () => setShow(true);
+  
   return (
     <>
       <Helmet>
@@ -27,7 +39,35 @@ const Home = () => {
         <link rel="canonical" href="https://www.dynamicssquare.com/" />
         <meta property="og:locale" content="en_US" />
       </Helmet>
+      <section>
 
+
+      {/* <Button variant="primary" onClick={handleShow}>
+        Launch static backdrop modal
+      </Button> */}
+
+      <Modal
+        show={show}
+        onHide={handleClose}
+        backdrop="static"
+        keyboard={false}
+      >
+        <Modal.Header closeButton>
+          <Modal.Title>Modal title</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          I will not close if you click outside me. Don't even try to press
+          escape key.
+        </Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={handleClose}>
+            Close
+          </Button>
+          <Button variant="primary">Understood</Button>
+        </Modal.Footer>
+      </Modal>
+
+      </section>
       <section id="hero" className="hero hero-1">
         <div className="container">
           <div className="row">
@@ -44,6 +84,15 @@ const Home = () => {
                   <Link
                     data-bs-toggle="modal"
                     to="#exampleModal"
+                    className="btn-get-started scrollto"
+                  >
+                    <span>Talk to an Expert </span>
+                  </Link>
+                </div>
+                <div className="text-center text-lg-start btn-welcome">
+                  <Link
+                    data-bs-toggle="modal"
+                    to="#exampleModal22"
                     className="btn-get-started scrollto"
                   >
                     <span>Talk to an Expert </span>

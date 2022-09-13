@@ -157,6 +157,46 @@ const Footer = () => {
         </div>
       </div>
 
+
+
+
+      <div
+        className="modal fade form-main-model"
+        id="exampleModal22"
+        tabIndex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div className="modal-dialog modal-dialog-centered">
+          <div className="modal-content">
+            <div className="modal-header">
+              <h4 className="modal-title" id="exampleModalLabel">
+                Request Callback
+              </h4>
+              <button
+                type="button"
+                className="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+              <p></p>
+            </div>
+            <p>
+              Please complete the form below and we will be in touch or{" "}
+              <ExternalLink href="tel:+2818990865" target="_self" rel="">
+                book a call
+              </ExternalLink>{" "}
+              with one of our Microsoft consultants.
+            </p>
+            <div className="modal-body">
+              <div className="main-form-wrper">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <section id="services" className="services bg-shape ovr-f hidesec">
         <div className="container" data-aos="fade-up">
           <header className="section-header">

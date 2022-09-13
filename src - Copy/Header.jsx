@@ -958,7 +958,9 @@ const Header = () => {
                                     </a>
                                   </li>
                                   <li>
-                                    <a href="/azure-iot-edge">IoT Edge</a>
+                                    <a href="/azure-iot-edge">
+                                      IoT Edge
+                                    </a>
                                   </li>
                                   <li>
                                     <a href="/products/azure-digital-twins/">
@@ -1109,7 +1111,9 @@ const Header = () => {
                           <div className="iner-list">
                             <ul>
                               <li>
-                                <a href="/industries/startups/">Startups</a>
+                                <a href="/industries/startups/">
+                                  Startups
+                                </a>
                               </li>
                               <li>
                                 <a href="/industries/microsoft-cloud-for-nonprofit/">
@@ -1117,7 +1121,9 @@ const Header = () => {
                                 </a>
                               </li>
                               <li>
-                                <a href="/industries/ecommerce/">Ecommerce</a>
+                                <a href="/industries/ecommerce/">
+                                  Ecommerce
+                                </a>
                               </li>
                               <li>
                                 <a href="/industries/microsoft-cloud-for-manufacturing/">
@@ -1262,7 +1268,9 @@ const Header = () => {
                               </li>
 
                               <li>
-                                <a href="/case-studies/">Case Studies</a>
+                                <a href="/case-studies/">
+                                  Case Studies
+                                </a>
                               </li>
                               <li>
                                 <a href="/webinars/">Webinars</a>
