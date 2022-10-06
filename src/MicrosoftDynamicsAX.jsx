@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { Helmet } from "react-helmet";
+import { Nav } from "react-bootstrap";
 const MicrosoftDynamicsAX = () => {
   return (
     <>
@@ -590,6 +591,394 @@ const MicrosoftDynamicsAX = () => {
                     <div className="accordion-body">
                       <p>Cortana integration helps the users provide voice commands to complete a task. It allows the users to perform two tasks together, resulting in saving a lot of time and effort. With such benefits, Microsoft Dynamics AX can transform the effortless management of finance and operation.</p>
                       <p>See Also - <NavLink to="/d365-vs-dynamics-ax/">D365 Vs Dynamics Ax</NavLink></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section className="solution-faq faq">
+        <div className="container">
+          <header className="section-header">
+            <h2>
+              Have you got
+              <br />
+              questions about Microsoft Dynamics AX?
+            </h2>
+            <p>Click through to our FAQ for the best answers!</p>
+          </header>
+          <div className="row justify-content-center mar-top-7">
+            <div className="col-lg-8">
+              <div className="accordion accordion-flush" id="faqlist2">
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-news-1"
+                    >
+                      What is the key difference between Dynamics AX and Microsoft Dynamics 365?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-news-1"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist2"
+                  >
+                    <div className="accordion-body">
+                      <p><NavLink to="/products/microsoft-dynamics-365/">Microsoft Dynamics 365</NavLink> is purely a cloud-based SaaS (software as a Service) for enterprise resource planning (ERP), while Dynamics AX is a desktop-based software application that comes with some mobile and web add-on elements.</p>
+                      <p>Moreover, the new version of Dynamics AX, that is, Dynamics 365 supports tight integration with other business apps under the Dynamics 365 family like CRM. Integration of Dynamics 365 with other apps helps you get an end-to-end business solution, which was not possible with AX.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-news-2"
+                    >
+                      What is the difference between Dynamics AX and NAV?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-news-2"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist2"
+                  >
+                    <div className="accordion-body">
+                    <p>Dynamics AX is an enterprise-grade <NavLink to="/products/microsoft-dynamics-erp/">ERP solution</NavLink> designed by Microsoft specifically for large organizations having complex business processes international groups and companies, while Dynamics NAV is an ERP that targets mostly small to mid-sized businesses (SMBs) with a certain degree of global presence. </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-news-3"
+                    >
+                     What is Dynamics AX used for? 
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-news-3"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist2"
+                  >
+                    <div className="accordion-body">
+                      <p>Dynamics AX is a comprehensive enterprise resource planning (ERP) software suite that helps you manage your company's finances and operations. AX assists in organizing, automating, and optimizing your business operations, whether on-premises, on the cloud, or via AX's hybrid deployment.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-news-4"
+                    >
+                     Is Dynamics AX still available?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-news-4"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist2"
+                  >
+                    <div className="accordion-body">
+                      <p>As of October 12, 2021, Dynamics AX 2012 R3 will no longer receive mainstream support. Up until January 10, 2023, extended support will only provide security hotfixes.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-news-5"
+                    >
+                      How can I purchase and license Dynamics 365?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-news-5"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist2"
+                  >
+                    <div className="accordion-body">
+                      <p>Microsoft lets Value-Added Resellers (VARs) like Dynamics Square sell Dynamics 365. We have experience working with D365 products, and we're a Microsoft Gold Provider and a Cloud Service Provider (CSP) through Microsoft. We will help you <NavLink to="/our-services/dynamics-365-implementation-services/">implement Dynamics 365</NavLink> solutions at a reasonable cost.</p>
+                      <p>We follow a clients-first approach and can issue a license for implementing Dynamics 365, additional connected apps, and add-ons at your premises.</p>
+                      <p>Get in touch with us for immediate assistance.</p>
+                      <p><b>Note:</b> The cloud and hybrid deployment options are available for purchase now for 20 or more users. If your company prefers an on-premises solution, our team can optimize Dynamics AX On-premises for mobility. </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-news-6"
+                    >
+                     What modules do I get when I buy Dynamics 365?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-news-6"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist2"
+                  >
+                    <div className="accordion-body">
+                      <p>You will get all the modules under Microsoft Dynamics 365. We can help you determine the Subscription License (SL) best suited for your business requirements: Enterprise, Task, or Self Service. Also, if your company grows or develops, you have the flexibility to add more Dynamics 365 features in D365.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-news-7"
+                    >
+                      Can you integrate 365 with Office 365 or Power BI?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-news-7"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist2"
+                  >
+                    <div className="accordion-body">
+                    <p>Yes!! Dynamics 365 extremely favors integration with other Microsoft business apps such as Office 365, <NavLink to="/products/microsoft-power-bi/">Power BI</NavLink>, and other business apps and web services since it exposes and supports the Open Data Protocol (or OData) - a standard web-based protocol (HTTP and JavaScript Object Notation=JSON) for creating and consuming data and provide access to information from various programs. OData helps in providing a Representational State Transfer (REST)- protocol for Create, Read, Update, and Delete (CRUD)- style operations.</p>
+                     <p>For example, you can create and upload an Excel spreadsheet with a single trigger in any one of your ERPs (<NavLink to="/products/microsoft-dynamics-365-field-service/">field service</NavLink>, <NavLink to="/products/microsoft-dynamics-365-customer-service/">customer service</NavLink>, operations, project service automation, and <NavLink to="/products/microsoft-dynamics-365-marketing/">marketing</NavLink>) under D365 family.</p>
+                     <p><b>Benefits of OData:</b> </p>
+                     <ul>
+                      <li>Developers can freely interact with data using RESTful web services.</li>
+                      <li>Helps to uniformly share data and makes it discoverable.</li>
+                      <li>Enables integration across products through HTTP protocol stack.</li>
+                     </ul>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-news-8"
+                    >
+                     Can you customize Dynamics 365?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-news-8"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist2"
+                  >
+                    <div className="accordion-body">
+                     <p>Yes, we can, provided there is an app for customization. Thus, if you need a customization, AX's code could be changed by your Microsoft Partner.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-news-9"
+                    >
+                     What support is provided for Dynamics 365?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-news-9"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist2"
+                  >
+                    <div className="accordion-body">
+                     <p>Your <NavLink to="/">Dynamics 365 CSP Partner</NavLink> and Lifecycle Services can provide you with the best support for Dynamics 365. </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-news-10"
+                    >
+                     How long does Dynamics 365 take to implement?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-news-10"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist2"
+                  >
+                    <div className="accordion-body">
+                     <p>The Life-cycle Services in Dynamics 365 reduce implementation risk, cost, and time compared to other ERP competitors.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-news-11"
+                    >What reporting functionality is available with Dynamics 365?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-news-11"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist2"
+                  >
+                    <div className="accordion-body">
+                     <p>Information access is crucial for any ERP software since it directly affects the user experience. The dynamics 365 platform includes all the standard reporting tools like Excel, SQL Reporting Services (SRS), and Power BI that can meet diverse information access demands for an ERP solution.</p>
+                     <p>Since Power BI has drag-and-drop reporting capabilities, we can create customized dashboards for your employees, or you can try them out yourself. It's easy!</p>
+                     <p>Moreover, Dynamics AX reporting allows users to manage reports with extensive options. Reporting is flexible and based on your organization's specific needs.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-news-12"
+                    >
+                     What is the typical Dynamics AX implementation time?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-news-12"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist2"
+                  >
+                    <div className="accordion-body">
+                     <p>In comparison to other ERP alternatives, Dynamics AX provides a shorter than average implementation period. It takes about 10 months. Also, implementing Dynamics AX is cheaper and with fewer risks due to Life-cycle services and more customization capabilities. It allows company-wide satisfaction and user satisfaction.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-news-13"
+                    >
+                      What if I want to stay with Dynamics AX and do not wish to upgrade but also want more functionalities?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-news-13"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist2"
+                  >
+                    <div className="accordion-body">
+                     <p>It's easy, we've been working with Dynamics AX for years and can support it by configuring all versions of Dynamics AX to the most recent edition - Microsoft Dynamics 365 Operations.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-news-14"
+                    >
+                      Can Dynamics AX import data from Excel?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-news-14"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist2"
+                  >
+                    <div className="accordion-body">
+                     <p>Here are a few simple steps for importing data from Excel into Dynamics AX. Users will be able to access this feature based on their security settings. If you need help migrating data, Dynamics Square can help.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-news-15"
+                    >Is it possible to create Excel reports in Dynamics AX?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-news-15"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist2"
+                  >
+                    <div className="accordion-body">
+                     <p>A pivot table and filters are two options here. If you'd like a demonstration of this feature, we can show you how powerful it is. Book a free consultation today!</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-news-16"
+                    >
+                      For establishing standards and KPIs, can Dynamics AX compare historical costing data and labor hours? 
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-news-16"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist2"
+                  >
+                    <div className="accordion-body">
+                     <p>This information can be found in the Variance Analysis Statement within Inventory Management.  Drill-down capabilities are available in the report. </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-news-17"
+                    >
+                      In Dynamics AX, can you generate a job-specific cost analysis comparing estimated and actual costs, including drill-down capabilities, so you can see where the differences lie?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-news-17"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist2"
+                  >
+                    <div className="accordion-body">
+                     <p>Within Project Accounting, you can generate this type of report.  The general ledger is directly populated with this data using Dynamics AX.</p>
                     </div>
                   </div>
                 </div>

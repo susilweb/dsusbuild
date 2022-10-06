@@ -16,7 +16,7 @@ const FormCampaign = () => {
     emailjs
       .sendForm(
         "service_s5buvhl",
-        "template_rutby6n",
+        "template_i5zhpbn",
         e.target,
         "LvW2gMtZd1FL0qnvG"
       )

@@ -14,7 +14,12 @@ const Footer = () => {
   const [display, setDisplay] = useState("dspn");
   const { pathname } = useLocation();
   //console.log(pathname);
-  if (pathname === "/contact-us/" || pathname === "/thank-you/") {
+  if (
+    pathname === "/contact-us/" ||
+    pathname === "/thank-you/" ||
+    pathname === "/email-dynamics365-crm/" ||
+    pathname === "/emailer-power-bi/"
+  ) {
     //setStyle("dspn");
     return null;
   }
@@ -25,12 +30,13 @@ const Footer = () => {
 
     emailjs
       .sendForm(
-        "service_8nlbo04",
-        "template_jtzrb8n",
+        "service_ccdtu47",
+        "template_st2w96e",
         e.target,
-        "6bh9sGQpzDgqfRNHH"
+        "QWSz4kg6AvQ5O1nDN"
       )
       .then((res) => {
+        //alert("success");
         history.push("/thank-you/");
       })
       .catch((err) => console.log(err));

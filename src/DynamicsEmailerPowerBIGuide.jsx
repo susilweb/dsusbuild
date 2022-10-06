@@ -15,12 +15,15 @@ const DynamicsEmailerPowerBIGuide = () => {
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.co.uk/emailer-power-bi/"
+          href="https://www.dynamicssquare.com/emailer-power-bi/"
         />
-        <meta property="og:locale" content="en_GB" />
+        <meta property="og:locale" content="en_US" />
       </Helmet>
 
-      <section className="Solution-banner hero-1 hero">
+      <section
+        className="Solution-banner hero-1 hero"
+        style={{ overflow: "hidden" }}
+      >
         <div className="container">
           <div className="row">
             <div className="col-lg-6 mobile-1 align-self-center nav-to">

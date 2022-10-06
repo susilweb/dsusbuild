@@ -6085,7 +6085,7 @@ border:none
   border: none;
 }
 
-.contact-tbs.nav-tabs .nav-link:hover,.contact-tbs.nav-tabs .nav-link:focus, {
+.contact-tbs.nav-tabs .nav-link:hover,.contact-tbs.nav-tabs .nav-link:focus {
   border-top: none;
   border-right: none;
   border-left: none;
@@ -7697,6 +7697,7 @@ border:none
     padding: 10px 10px;
     border-radius: 5px;
     margin-bottom: 10px;
+    min-height:125px
 }
 .ineer-div .left{
   flex: 15%;
@@ -7717,6 +7718,7 @@ border:none
     font-weight: 600;
     line-height: 1.4;
     color: var(--color-black);
+    padding-bottom:0
 }
 .main-form-wrper-nav{
   background:#fff;
@@ -8261,6 +8263,64 @@ color:var(--color-red)
 .new-Pricing-wrp .new-Pricing .body-in ul li{
   font-size: 14px;
 }
+
+/*power bi new sectio*/
+.new-call-to-power-bi{
+  padding-top: 100px;
+    padding-bottom: 40px;
+}
+.inner-bgs{
+  background-color:var(--color-blue);
+  border-radius: 10px;
+  padding: 0px 40px;
+}
+.all-to-power-bi-content{}
+.all-to-power-bi-content h3{
+  color:#fff;
+  font-size:32px;
+  margin-bottom: 20px;
+}
+.all-to-power-bi-content p{
+  color: #c6ddff;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+.button-call-ac{
+  display:block
+}
+.button-call-ac .bt-red-a{
+  margin: 13px 10px 0 2px;
+  border-radius: 3px;
+  font-size: 14px;
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  transition: 0.5s;
+  display: inline-block;
+}
+.button-call-ac .bt-red{
+  background-color: var(--color-red);
+  border: solid 1px var(--color-red);
+}
+.button-call-ac .bt-red:hover{
+  background-color: #fff;
+  border: solid 1px #fff;
+  color: var(--color-blue);
+}
+.button-call-ac .bt-red-border{
+
+  border: solid 1px #fff;
+}
+.button-call-ac .bt-red-border:hover{
+  background-color:  var(--color-red);
+  border: solid 1px  var(--color-red);
+  color: #fff;
+}
+.all-to-power-bi-pic{}
+.all-to-power-bi-pic img {
+  margin-top: -90px;
+}
+/*power bi new sectio*/
+
 /*media*/
 
 @media (min-width: 991px) {
@@ -8505,6 +8565,40 @@ color:var(--color-red)
 }
 }
 @media (max-width: 768px) {
+  .all-to-power-bi-pic{
+    position:relative
+  }
+  .all-to-power-bi-pic {
+    position: relative;
+    display: none;
+  }
+  .all-to-power-bi-content p {
+    font-size:14px;
+    margin-bottom: 15px;
+  }
+  .all-to-power-bi-content p br{
+    display:none
+  }
+  .inner-bgs {
+    padding: 30px 15px;
+  }
+  .new-call-to-power-bi {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .all-to-power-bi-content h3 {
+    font-size: 24px;
+  }
+  .button-call-ac .bt-red-a {
+    margin: 13px 10px 0 2px;
+    padding: 0.5rem 0.5rem;
+    width: 150px;
+      text-align: center;
+  
+  }
+  .ineer-div{
+    height:120px
+  }
   .busines-service-list-pad{
     padding:0
   }
@@ -9094,6 +9188,7 @@ color:var(--color-red)
 }
 
 @media (max-width: 1199px) {
+  
   .testimonials .swiper-slide-active {
     opacity: 1;
   }
@@ -9499,6 +9594,10 @@ color:var(--color-red)
 }
 
 @media  (min-width: 768px) and (max-width: 1200px) {
+
+  .ineer-div{
+    height:140px
+  }
   .navbar .left-logo {
     flex: 40%;
     max-width: 40% !important;
@@ -9619,6 +9718,18 @@ margin-top: 0px;
 }
 
 @media (min-width: 1201px) and (max-width: 1400px) {
+  .all-to-power-bi-content h3 {
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.all-to-power-bi-content p {
+  margin-bottom: 20px;
+}
+.button-call-ac .bt-red-a {
+  margin: 12px 6px 0 2px;
+  padding: 0.6rem 1.3rem;
+}
   .commen-box-9 .commen-boc-2-info p {
     height: 110px;
   }
@@ -9631,4 +9742,48 @@ margin-top: 0px;
 .balnde-imge-mode .shape-1 {
   width: 160px;
 }
+}
+@media (min-width: 991px) and (max-width: 1200px){
+  .all-to-power-bi-content h3 {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  .all-to-power-bi-content p {
+    margin-bottom: 10px;
+    font-size:14px
+  }
+  .button-call-ac .bt-red-a {
+    margin: 13px 5px 0 2px;
+    padding: 0.5rem 0.6rem;
+    display: inline-block;
+  }
+  .all-to-power-bi-content {
+    padding: 15px 0px;
+  }
+  .all-to-power-bi-pic img {
+    margin-top: -55px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px){
+  .all-to-power-bi-content h3 {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  .all-to-power-bi-content p {
+    margin-bottom: 10px;
+    font-size:14px
+  }
+  .button-call-ac .bt-red-a {
+    margin: 13px 5px 0 2px;
+    padding: 0.5rem 0.6rem;
+    display: inline-block;
+  }
+  .all-to-power-bi-content {
+    padding: 15px 0px;
+  }
+  .all-to-power-bi-pic img {
+    margin-top: -55px;
+  }
 }

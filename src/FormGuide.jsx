@@ -17,10 +17,10 @@ const FormGuide = () => {
 
     emailjs
       .sendForm(
-        "service_p9e4s2i",
-        "template_own8zg4",
+        "service_8nlbo04",
+        "template_3b4uq29",
         e.target,
-        "JZAkUF2t_OOtPtKmy"
+        "6bh9sGQpzDgqfRNHH"
       )
       .then((res) => {
         history.push("/guides/download/power-guide-pdf/");

@@ -13,10 +13,10 @@ const Form = () => {
 
     emailjs
       .sendForm(
-        "service_8nlbo04",
-        "template_jtzrb8n",
+        "service_ccdtu47",
+        "template_st2w96e",
         e.target,
-        "6bh9sGQpzDgqfRNHH"
+        "QWSz4kg6AvQ5O1nDN"
       )
       .then((res) => {
         //console.log(res);
