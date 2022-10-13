@@ -1,9 +1,37 @@
-import React from "react";
+import React, { useRef, useState , useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import { ExternalLink } from "react-external-link";
 import FormGuide from "./FormGuide";
 const PowerBIGuide = () => {
+  const [isVisible, setIsVisible] = useState(true);
+const [display, setDisplay] = useState("ds-none");
+useEffect(() => {   
+  window.addEventListener("scroll", listenToScroll);
+  return () => 
+     window.removeEventListener("scroll", listenToScroll); 
+}, []) 
+
+const listenToScroll = () => {
+  let heightToShowFrom = 600;
+  let heightToHideFrom = 48500;
+  const winScroll = document.body.scrollTop || 
+      document.documentElement.scrollTop;
+     
+  if (winScroll > heightToShowFrom) { 
+    setDisplay("hd-div");
+     isVisible &&      // to limit setting state only the first time         
+       setIsVisible(true);
+  } else {
+    setDisplay("hd-div");
+       setIsVisible(false);
+  } 
+  
+  if (winScroll > heightToHideFrom) { 
+    setIsVisible(false);
+  }
+
+};
   return (
     <>
       <Helmet>
@@ -154,6 +182,23 @@ const PowerBIGuide = () => {
           </div>
         </div>
       </section>
+      {
+   isVisible 
+      && 
+   <div className={display}>
+
+      <ul>
+        <li><ExternalLink href="#tabs-1" rel="" target="_self">1. Introduction</ExternalLink></li>
+        <li><ExternalLink href="#tabs-2" rel="" target="_self">2. Features & Benefits</ExternalLink></li>
+        <li><ExternalLink href="#tabs-3" rel="" target="_self">3. Dashboard Examples</ExternalLink></li>
+        <li><ExternalLink href="#tabs-4" rel="" target="_self">4. Integrations</ExternalLink></li>
+        <li><ExternalLink href="#tabs-5" rel="" target="_self">5. Pricing & Licensing</ExternalLink></li>
+        <li><ExternalLink href="#tabs-6" rel="" target="_self">6. Power BI vs. Others</ExternalLink></li>
+        <li><ExternalLink href="#tabs-7" rel="" target="_self">7. Future Scope</ExternalLink></li>
+      </ul>
+
+   </div>
+}
       <section className="color-gr">
         <div className="container">
           <div className="row justify-content-center g-4">
@@ -346,7 +391,7 @@ const PowerBIGuide = () => {
                 </p>
                 <div className="balnde-imge-mode">
                   <img
-                    src="/assets/img/shap-661.png"
+                    src="/assets/img/POwerBI-Intro.png"
                     alt="Introduction To Power BI"
                     className="shape-1"
                   />
@@ -1036,7 +1081,7 @@ const PowerBIGuide = () => {
                 </p>
                 <div className="balnde-imge-mode">
                   <img
-                    src="/assets/img/group-2162.png"
+                    src="/assets/img/PowerBi-Dashboard.png"
                     alt="Power BI Dashboards"
                     className="shape-1"
                   />
@@ -2465,7 +2510,7 @@ const PowerBIGuide = () => {
                 </p>
                 <div className="balnde-imge-mode">
                   <img
-                    src="/assets/img/group-2330.png"
+                    src="/assets/img/Future-Scope.png"
                     alt="Future Scope Of Power BI"
                     className="shape-1"
                   />

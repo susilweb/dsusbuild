@@ -84,7 +84,8 @@ const BusinessCentral = () => {
               What is Dynamics 365 Business Central?
             </h2>
             <p>
-            Dynamics 365 Business Central is an all-in-one business management solution for SMBs enabling them to optimize sales, finance, services, operations, human resources, and more. Business Central helps automate, accelerate, and simplify your process and optimize operations to ensure maximized revenue outcomes and scalability.
+            Dynamics 365 Business Central, often known as Business Central or BC, is a cloud-based ERP software developed specifically for small and mid-market size businesses to manage overall processes by automating finance, accounts, sales, customer service and operations. Moreover, 365 BC is the perfect SaaS ERP solution if you want to simplify your overall business processes and monitor them using a single dashboard. Powered by Microsoft cloud technology and with a D365 Business Central partner, you can have a unified view, security, scalability and flexibility so that you can focus on what's more important for your business. 
+
             </p>
           </header>
             </div>
@@ -97,7 +98,7 @@ const BusinessCentral = () => {
 <div className="col-lg-6 col-md-8">
         <header className="section-header">
             <h2>
-            Dynamics 365 Business Central Capabilities
+            Capabilities of D365 Business Central
             </h2>
           </header>
           </div></div>
@@ -133,8 +134,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Internal Transactions</h4>
-                            <p>Automate and customise the company's internal
-                            transactions with restricted access to team members.</p>
+                            <p>Transact internally with restricted access by streamlining and customizing all your transactions.</p>
                         </div>
                       </div>
                     </div>
@@ -145,8 +145,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                         <h4>Cash flow Forecasting</h4>
-                        <p>Manage cash balances and account schedules to
-                            estimate future sales and expenses.</p>
+                        <p>By analyzing cash balances and account schedules, you can predict future sales and expenses.</p>
                             </div>
                       </div>
                     </div>
@@ -157,8 +156,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                         <h4>Budgeting</h4>
-                        <p>Monitor and manage the company's overall financial
-                            activities, along with budget control.</p>
+                        <p>Along with accurate budgeting, you can also monitor and manage your business's overall finances.</p>
                             </div>
                       </div>
                     </div>
@@ -169,9 +167,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                         <h4>Inventory Costing</h4>
-                        <p>Maintains the general ledger to manage the
-                            inventory, manufacturing costs, and reconcile the
-                            costs.</p>
+                        <p>You can utilize D365 Business Centra's general ledger feature to reconcile inventory costs and manufacturing costs.</p>
                             </div>
                       </div>
                     </div>
@@ -181,9 +177,8 @@ const BusinessCentral = () => {
                           <i className="bi bi-check-lg"></i>
                         </div>
                         <div className="content">
-                        <h4>Consolidation and Multi-Companies</h4>
-                        <p>With the combination of multiple general ledgers, it
-                            can conduct financial analysis of the company.</p>
+                        <h4>Consolidation & Multi-Companies</h4>
+                        <p>A combination of multiple general ledgers can be used to analyze the company's finances.</p>
                             </div>
                       </div>
                     </div>
@@ -194,8 +189,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                         <h4>Costs and Income Allocation</h4>
-                        <p> Distribute the entries from one general journal to
-                            different accounts.</p>
+                        <p>You can make different accounts out of entries from a common journal.</p>
                             </div>
                       </div>
                     </div>
@@ -206,8 +200,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                         <h4>Banking</h4>
-                        <p>With seamless banking integration, it settles bank
-                            accounts and funds transfers between accounts.</p>
+                        <p>Transacting between bank accounts and settling bank accounts is seamless with smooth banking integration in D365 Business Central.</p>
                             </div>
                       </div>
                     </div>
@@ -218,9 +211,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                         <h4>Cost Accounting</h4>
-                        <p>Distribute the budget between actual and budgeted
-                            costs for operations and projects to analyze
-                            returns.</p>
+                        <p>Dividing the budget by planned and actual costs for operations and projects will help you analyze the results.</p>
                             </div>
                       </div>
                     </div>
@@ -231,8 +222,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                         <h4>Fixed Assets</h4>
-                        <p>Gives the complete control of fixed assets and
-                            ensures timely reduction with D365 Business Central.</p>
+                        <p>With D365 Business Central, you have total control over fixed assets, and you can reduce them immediately.</p>
                             </div>
                       </div>
                     </div>
@@ -243,8 +233,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                         <h4>Accounts Receivable</h4>
-                        <p>Receives payments, settles bank accounts, and
-                            collects the remaining balance.</p>
+                        <p>Collects the remaining balance after receiving payments, settling bank accounts, and resolving issues with bank accounts.</p>
                             </div>
                       </div>
                     </div>
@@ -255,8 +244,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                         <h4>Accounts Payable</h4>
-                        <p>Make payments, mark outgoing payments, and manage
-                            cheques with D365 BC.</p>
+                        <p>Manage your cheques, mark outgoing payments, and make faster payments.</p>
                             </div>
                       </div>
                     </div>
@@ -267,8 +255,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                         <h4>General Ledger</h4>
-                        <p>Manage the credit and debit entries to maintain the
-                            entire financial data.</p>
+                        <p>Maintain real financial data by managing credit and debit entries.</p>
                             </div>
                       </div>
                     </div>
@@ -305,8 +292,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Customer management</h4>
-                            <p>Manage customers and keep track of their queries as
-                            well.</p>
+                            <p>Interact with your clients and seamlessly manage their queries.</p>
                         </div>
                       </div>
                     </div>
@@ -317,8 +303,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                         <h4>Sales Quote</h4>
-                        <p>Provides a sales quote to the customer to offer
-                            negotiations before making the actual invoice.</p>
+                        <p>Before creating an invoice, provide a sales quote to the client for easy negotiation.</p>
                             </div>
                       </div>
                     </div>
@@ -329,8 +314,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                         <h4>Sales order</h4>
-                        <p>Manages the process of creating sales orders with
-                            drop shipment and partial shipping functions.</p>
+                        <p>To control the creation of sales orders, you can provide drop-shipping and partial-shipping options.</p>
                             </div>
                       </div>
                     </div>
@@ -341,8 +325,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                         <h4>Sales Invoices</h4>
-                        <p>It creates a sales invoice for the actual purchases
-                            processed by the buyers.</p>
+                        <p>For actual purchases, it generates a sales invoice.</p>
                             </div>
                       </div>
                     </div>
@@ -353,8 +336,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                         <h4>Drop Shipments</h4>
-                        <p>Manages the purchase order to ship the products
-                            directly from vendor to customer.</p>
+                        <p>Your vendor can ship the goods directly to the customer with the help of the purchase order.</p>
                             </div>
                       </div>
                     </div>
@@ -365,8 +347,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                         <h4>Sales Returns</h4>
-                        <p>Manages the data of sales invoices of the product
-                            returned to release the refund amount.</p>
+                        <p>To assist the sales team in processing the refund amounts for returned products and manage the information on the sales invoices.</p>
                             </div>
                       </div>
                     </div>
@@ -377,9 +358,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                         <h4>Assembly Order</h4>
-                        <p>Create linked assembly orders to process the full or
-                            partial order quantity during product
-                            unavailability.</p>
+                        <p>The entire or part of an order can easily be fulfilled with linked assembly orders if the desired product is unavailable.</p>
                             </div>
                       </div>
                     </div>
@@ -390,9 +369,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                         <h4>Order Planning & Promising</h4>
-                        <p>Makes the customers informed about order delivery
-                            dates by analysing capable-to-promise or available
-                            to promise dates.</p>
+                        <p>Customers are informed of the delivery dates for their orders by analyzing the dates that can or are available to be promised.</p>
                             </div>
                       </div>
                     </div>
@@ -403,8 +380,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                         <h4>Single invoice Multiple Shipments</h4>
-                        <p>Combines multiple shipments and invoice a customer
-                            once.</p>
+                        <p>After combining several shipments, it enables you to create a single invoice for a client.</p>
                             </div>
                       </div>
                     </div>
@@ -415,8 +391,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                         <h4>Correction or Cancel Unpaid Invoices</h4>
-                        <p>Automatically creates sales invoices for corrections
-                            in unpaid invoices.</p>
+                        <p>Automatically generates sales invoices for adjustments to unpaid invoices.</p>
                             </div>
                       </div>
                     </div>
@@ -427,8 +402,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                         <h4>Pick List Creation</h4>
-                        <p>Enables users to create a shipment pick-up list from
-                            various vendor locations.</p>
+                        <p>The choice to compile a list of vendors from which to pick up shipments is given to users.</p>
                             </div>
                       </div>
                     </div>
@@ -465,7 +439,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Vendor Management</h4>
-                          <p>Creates a vendor card for each vendor to manages all purchases.</p>
+                          <p>To keep track of all purchases, a vendor card is created for every vendor.</p>
                         </div>
                       </div>
                     </div>
@@ -476,8 +450,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Purchase Quote</h4>
-                          <p>Create purchase quote from the vendor and later
-                            convert such quotes into purchase orders.</p>
+                          <p>Ask the supplier for purchase quotes, then convert those requests into purchase orders.</p>
                         </div>
                       </div>
                     </div>
@@ -488,8 +461,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Purchase Order</h4>
-                          <p>D365 BC manages all the purchase orders for the
-                            vendors.</p>
+                          <p>You can manage all the purchase orders from the list of vendors with the help of D365 Business Central.</p>
                         </div>
                       </div>
                     </div>
@@ -500,8 +472,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Purchase Invoices</h4>
-                          <p>Manages all the purchase invoices and manages vendor
-                            data to purchase products with terms.</p>
+                          <p>Helps in managing the management of all vendor information and purchase invoices for terms-based purchases.</p>
                         </div>
                       </div>
                     </div>
@@ -512,8 +483,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Purchase Items for Sales</h4>
-                          <p>D365 BC allows users to create a single invoice for
-                            multiple selected purchase invoices.</p>
+                          <p>You can merge several purchase items into one invoice for better sales using Business Central.</p>
                         </div>
                       </div>
                     </div>
@@ -524,8 +494,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Purchase Returns</h4>
-                          <p>Creates invoices for the vendor to show product
-                            return data along with the amount to be refunded.</p>
+                          <p>Creates vendor invoices that list the returned items along with the amount that was paid out.</p>
                         </div>
                       </div>
                     </div>
@@ -536,8 +505,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Combine Receipts on Single Invoice</h4>
-                          <p>It combines multiple invoices from the same vendor
-                            and converts them into a single one.</p>
+                          <p>You can combine multiple invoices from the same vendor into one with the aid of D365 Business Central.</p>
                         </div>
                       </div>
                     </div>
@@ -548,8 +516,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Electronic Documents</h4>
-                          <p>Manages and converts all the electronic invoices to
-                            purchase invoices from the vendors.</p>
+                          <p>The management and transformation of all electronic invoices into vendor purchase invoices.</p>
                         </div>
                       </div>
                     </div>
@@ -560,8 +527,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Date Calculation for Purchase</h4>
-                          <p>It reflects the data of products to be received on
-                            or before certain dates.</p>
+                          <p>It provides details about products that must be received by specified dates or earlier.</p>
                         </div>
                       </div>
                     </div>
@@ -572,8 +538,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Merge Duplicate Records</h4>
-                          <p>It merges all the duplicate records and eliminates
-                            all the confusion.</p>
+                          <p>Through the merging of all the redundant records, it clears up all confusion.</p>
                         </div>
                       </div>
                     </div>
@@ -611,8 +576,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Item Master Management</h4>
-                          <p>Creates the items or product cards an organisation
-                            generally trades.</p>
+                          <p>It enables you to create the products or product cards that a business trade.</p>
                         </div>
                       </div>
                     </div>
@@ -623,9 +587,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Bill of Materials</h4>
-                          <p>Creates the structure or data of the parent item to
-                            be sold as the parent item’s component kits to
-                            stock.</p>
+                          <p>Creates the parent item's structure or data to stock component kit versions of the parent item for sale.</p>
                         </div>
                       </div>
                     </div>
@@ -636,8 +598,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Item Categorization</h4>
-                          <p>Organises the items into categories and maintains an
-                            overall overview.</p>
+                          <p>While categorizing the elements, it maintains a comprehensive perspective.</p>
                         </div>
                       </div>
                     </div>
@@ -648,8 +609,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Item Attributes</h4>
-                          <p>Assign the attributes to the different items to make
-                            finding a specific item easy.</p>
+                          <p>Give the attributes to the various items to make it easier for employees to find a certain item.</p>
                         </div>
                       </div>
                     </div>
@@ -660,8 +620,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Item Catalog</h4>
-                          <p>Creates special item card that a company offers to
-                            its customers with no inventory</p>
+                          <p>Creates a special item card that a company can give to customers without keeping any in stock.</p>
                         </div>
                       </div>
                     </div>
@@ -672,8 +631,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Inventory Counting</h4>
-                          <p>Manages to keep the stock of items counted in
-                            real-time.</p>
+                          <p>Successfully keeps track of the inventory in real-time.</p>
                         </div>
                       </div>
                     </div>
@@ -684,8 +642,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Item Availablity</h4>
-                          <p>Manages item availability by location, time, sales
-                            event, use on assembly, and production BOMs.</p>
+                          <p>Monitors item availability based on location, time, sales event, use during assembly, and BOM production.</p>
                         </div>
                       </div>
                     </div>
@@ -696,8 +653,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Inventory Transfer</h4>
-                          <p>Manages all the transfer orders to transfer
-                            inventory items from one location to another.</p>
+                          <p>Manages all transfer orders that are used to move inventory items between locations.</p>
                         </div>
                       </div>
                     </div>
@@ -708,8 +664,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Item Reservation</h4>
-                          <p>Reserve some products from inventory for sales,
-                            service, purchase, assembly, and production orders.</p>
+                          <p>For sales, service, purchase, assembly, and production orders, set aside a few items from your inventory.</p>
                         </div>
                       </div>
                     </div>
@@ -720,8 +675,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Item Tracking</h4>
-                          <p>Helps the user to track items using a serial number
-                            or lot number in case of a recall situation.</p>
+                          <p>Helps the user track products using a serial number or lot number in the event of a recall situation.</p>
                         </div>
                       </div>
                     </div>
@@ -732,8 +686,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Block Items</h4>
-                          <p>Blocks some items from entering into sales or
-                            purchase lines or in any transaction.</p>
+                          <p>It can automatically stop some items from joining the selling or buying queues or taking part in any transactions.</p>
                         </div>
                       </div>
                     </div>
@@ -770,9 +723,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Item Receiving</h4>
-                          <p>Manages the record of all item receipts at the
-                            warehouse location along with the details of the
-                            purchase order.</p>
+                          <p>A purchase order's information and a record of all items that have been received at the warehouse are organized.</p>
                         </div>
                       </div>
                     </div>
@@ -783,8 +734,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Item Shipments</h4>
-                          <p>Manages the record of shipped items at the warehouse
-                            location along with the details of the sales order.</p>
+                          <p>Maintains a record of shipped goods at the warehouse and the sales order data.</p>
                         </div>
                       </div>
                     </div>
@@ -795,8 +745,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Cross Dock Items</h4>
-                          <p>Bypass, pick, and place expedited items in inventory
-                            for shipping.</p>
+                          <p>To ship expedited items, you can easily bypass, pick, or add them to your inventory.</p>
                         </div>
                       </div>
                     </div>
@@ -807,8 +756,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Putting Items Away</h4>
-                          <p>Classifies the items received from various available
-                            resources as per the configured warehouse process.</p>
+                          <p>D365 Business Central is equipped with automatic functionalities that help you decide which category the items received from various resources should be placed under through warehouse processes.</p>
                         </div>
                       </div>
                     </div>
@@ -819,8 +767,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Moving Items</h4>
-                          <p>Helps the organisation to move items from different
-                            locations in the warehouse.</p>
+                          <p>Enables the company to transport goods between various warehouse locations.</p>
                         </div>
                       </div>
                     </div>
@@ -831,8 +778,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Picking Items</h4>
-                          <p>Chooses the items for different purposes as per the
-                            data configured in the warehouse.</p>
+                          <p>Chooses the items based on the data set up in the warehouse for various uses.</p>
                         </div>
                       </div>
                     </div>
@@ -843,8 +789,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Automated Data Capture Systems (ADCS)</h4>
-                          <p>Track the movements of items in the warehouse using
-                            the barcode scanning feature.</p>
+                          <p>Tracks the movement of items inside the warehouse using the barcode scanning feature.</p>
                         </div>
                       </div>
                     </div>
@@ -881,9 +826,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Project Creation</h4>
-                          <p>The Dynamics 365 BS assists the organisation in
-                            creating and managing projects, as well as assigning
-                            jobs and planning projects.</p>
+                          <p>Dynamics 365 Business Central enables the organization to assign tasks, schedule projects, and help create and manage projects.</p>
                         </div>
                       </div>
                     </div>
@@ -894,8 +837,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Resource Allocations</h4>
-                          <p>Distributes resources to various tasks with price
-                            management prior to the start of each project.</p>
+                          <p>Prior to the start of each project, allocate resources with price management to various tasks.</p>
                         </div>
                       </div>
                     </div>
@@ -906,9 +848,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Time Sheet Management</h4>
-                          <p>Prepares the time sheet with job tasks, planning
-                            lines, and updates the time sheet lines to the job
-                            journal.</p>
+                          <p>The timesheet is put together using the job tasks, the planning lines, and the timesheet lines. Thereafter, the timesheet lines are updated in the job journal.</p>
                         </div>
                       </div>
                     </div>
@@ -919,9 +859,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Project Budget Management</h4>
-                          <p>Analyze and compare the distribution of the budget
-                            across various projects to check the quality, cost,
-                            and efficiency.</p>
+                          <p>Examine and compare the various projects' effectiveness, costs, and quality to see how the budget is distributed among them.</p>
                         </div>
                       </div>
                     </div>
@@ -932,8 +870,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Resource Consumptions</h4>
-                          <p>Keeps a record of all consumption based on various
-                            jobs and updates the data in real-time.</p>
+                          <p>Keeps a running record of all consumption based on various jobs and updates the data in real time.</p>
                         </div>
                       </div>
                     </div>
@@ -944,9 +881,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Project Supplies</h4>
-                          <p>Manages the purchase of all supplies needed to
-                            complete a project and keeps track of the item as
-                            well as the time spent on it.</p>
+                          <p>D365 Business Central also helps you keep track of the work product and the amount of time spent on it, as well as overseeing the acquisition of all materials necessary for the completion of a project.</p>
                         </div>
                       </div>
                     </div>
@@ -957,9 +892,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Project WIP Methods</h4>
-                          <p>This feature helps to ensure the creation of correct
-                            financial statements and makes a financial
-                            estimation of jobs.</p>
+                          <p>This feature in Business Central makes it possible to create accurate financial statements and estimate the financial cost of jobs.</p>
                         </div>
                       </div>
                     </div>
@@ -970,9 +903,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Project Progress and Performance</h4>
-                          <p>It manages the correct financial statements and the
-                            financial value of materials after consumption for a
-                            job.</p>
+                          <p>It oversees accurate financial reporting and the cost of materials used in a job after they have been consumed.</p>
                         </div>
                       </div>
                     </div>
@@ -983,9 +914,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Project Invoicing</h4>
-                          <p>Send the project’s invoice to the customer after the
-                            completion of a particular project or schedule it as
-                            required.</p>
+                          <p>Send the invoice to the client when a particular project is complete or schedule it as necessary.</p>
                         </div>
                       </div>
                     </div>
@@ -996,8 +925,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Merge Duplicate Records</h4>
-                          <p>Eliminates the duplicate records of the same vendors
-                            to remove the confusion.</p>
+                          <p>Eliminates redundant records for the same vendors to clear up confusion.</p>
                         </div>
                       </div>
                     </div>
@@ -1034,8 +962,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Production Planning</h4>
-                          <p>To plan and suggest, the planning system demands a
-                            balanced supply chain.</p>
+                          <p>Planning, making suggestions, and balancing demand and supply chains are all made simple with Business Central.</p>
                         </div>
                       </div>
                     </div>
@@ -1046,8 +973,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Supply Planning</h4>
-                          <p>Plan the supply and adjust the algorithms to meet
-                            the manufacturing requirements.</p>
+                          <p>You can modify Business Central's algorithms to meet your timing requirements for manufacturing, distribution, and procurement.</p>
                         </div>
                       </div>
                     </div>
@@ -1058,8 +984,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Demand Forecasting</h4>
-                          <p>Enables the users to forecast the demand as per
-                            expected sales and production.</p>
+                          <p>D365 Business Central assists your business in maximizing sales and production by assisting with capacity limitations, demand forecasts, and material availability.</p>
                         </div>
                       </div>
                     </div>
@@ -1070,8 +995,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Creation of Production Order from Sales Order</h4>
-                          <p>Manages the production orders from sales demand to
-                            cover the exact sales order demand.</p>
+                          <p>Ensures that production orders are placed in accordance with the precise specifications of the sales orders.</p>
                         </div>
                       </div>
                     </div>
@@ -1082,8 +1006,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Order Planning</h4>
-                          <p>Helps to manually plan for sales and production
-                            demand, but one BOM level at a time.</p>
+                          <p>Manually forecasting sales and product demand is possible with Business Central. But only one BOM level (Bill of Material) at a time.</p>
                         </div>
                       </div>
                     </div>
@@ -1094,8 +1017,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>MRP & MPS</h4>
-                          <p>For supply chain automation, the planning worksheet
-                            works on MPS and MRP options.</p>
+                          <p>Users of Business Central can automate the supply chain using the MRP (Materials Requirements Planning) and MPS (Master Production Schedule) options by using the planning worksheet.</p>
                         </div>
                       </div>
                     </div>
@@ -1106,8 +1028,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Requisition Worksheet</h4>
-                          <p>Creates data automatically about the supply chain
-                            and mentions the demand for refilled items.</p>
+                          <p>Creates data about the supply chain automatically and mentions the demand for refilled items.</p>
                         </div>
                       </div>
                     </div>
@@ -1118,8 +1039,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Calculate Work Centre Calendar</h4>
-                          <p>With D365 Business Central, it reschedules the work
-                            centre calendar due to sudden planning changes.</p>
+                          <p>D365 Business Central reschedules the work center calendar whenever there is an unexpected change in the plan.</p>
                         </div>
                       </div>
                     </div>
@@ -1130,8 +1050,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Item Availablity</h4>
-                          <p>Check the availability of a specific item and the
-                            insights of events that influence it.</p>
+                          <p>You can learn more about a specific item's influence and availability.</p>
                         </div>
                       </div>
                     </div>
@@ -1142,8 +1061,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Production Order</h4>
-                          <p>Create production orders manually or automatically
-                            with Dynamics 365 Business Central.</p>
+                          <p>D365 Business Central offers simple methods for creating production orders manually or automatically.</p>
                         </div>
                       </div>
                     </div>
@@ -1154,8 +1072,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Subcontracting</h4>
-                          <p>Helps decision makers to outsource the selected
-                            processes or operations to a subcontractor.</p>
+                          <p>Decision-makers can outsource their preferred processes or operations with the help of D365 Business Central.</p>
                         </div>
                       </div>
                     </div>
@@ -1166,9 +1083,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Production Consumption & Output</h4>
-                          <p>Record, post production output with material and
-                            time consumption for single released production
-                            line.</p>
+                          <p>The output of the single production line, and how much time and material it is used, can be recorded using Business Central for future reference.</p>
                         </div>
                       </div>
                     </div>
@@ -1207,8 +1122,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Internal Transactions</h4>
-                            <p>Automate and customise the company's internal
-                            transactions with restricted access to team members.</p>
+                          <p>Transact internally with restricted access by streamlining and customizing all your transactions.</p>
                         </div>
                       </div>
                     </div>
@@ -1219,8 +1133,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                         <h4>Cash flow Forecasting</h4>
-                        <p>Manage cash balances and account schedules to
-                            estimate future sales and expenses.</p>
+                        <p>By analyzing cash balances and account schedules, you can predict future sales and expenses.</p>
                             </div>
                       </div>
                     </div>
@@ -1231,8 +1144,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                         <h4>Budgeting</h4>
-                        <p>Monitor and manage the company's overall financial
-                            activities, along with budget control.</p>
+                        <p>Along with accurate budgeting, you can also monitor and manage your business's overall finances.</p>
                             </div>
                       </div>
                     </div>
@@ -1243,9 +1155,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                         <h4>Inventory Costing</h4>
-                        <p>Maintains the general ledger to manage the
-                            inventory, manufacturing costs, and reconcile the
-                            costs.</p>
+                        <p>You can utilize D365 Business Centra's general ledger feature to reconcile inventory costs and manufacturing costs.</p>
                             </div>
                       </div>
                     </div>
@@ -1256,8 +1166,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                         <h4>Consolidation and Multi-Companies</h4>
-                        <p>With the combination of multiple general ledgers, it
-                            can conduct financial analysis of the company.</p>
+                        <p>A combination of multiple general ledgers can be used to analyze the company's finances.</p>
                             </div>
                       </div>
                     </div>
@@ -1268,8 +1177,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                         <h4>Costs and Income Allocation</h4>
-                        <p> Distribute the entries from one general journal to
-                            different accounts.</p>
+                        <p>You can make different accounts out of entries from a common journal.</p>
                             </div>
                       </div>
                     </div>
@@ -1280,8 +1188,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                         <h4>Banking</h4>
-                        <p>With seamless banking integration, it settles bank
-                            accounts and funds transfers between accounts.</p>
+                        <p>Transacting between bank accounts and settling bank accounts is seamless with smooth banking integration in D365 Business Central.</p>
                             </div>
                       </div>
                     </div>
@@ -1292,9 +1199,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                         <h4>Cost Accounting</h4>
-                        <p>Distribute the budget between actual and budgeted
-                            costs for operations and projects to analyze
-                            returns.</p>
+                        <p>Dividing the budget by planned and actual costs for operations and projects will help you analyze the results.</p>
                             </div>
                       </div>
                     </div>
@@ -1305,8 +1210,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                         <h4>Fixed Assets</h4>
-                        <p>Gives the complete control of fixed assets and
-                            ensures timely reduction with D365 Business Central.</p>
+                        <p>With D365 Business Central, you have total control over fixed assets, and you can reduce them immediately.</p>
                             </div>
                       </div>
                     </div>
@@ -1317,8 +1221,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                         <h4>Accounts Receivable</h4>
-                        <p>Receives payments, settles bank accounts, and
-                            collects the remaining balance.</p>
+                        <p>Collects the remaining balance after receiving payments, settling bank accounts, and resolving issues with bank accounts.</p>
                             </div>
                       </div>
                     </div>
@@ -1329,8 +1232,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                         <h4>Accounts Payable</h4>
-                        <p>Make payments, mark outgoing payments, and manage
-                            cheques with D365 BC.</p>
+                        <p>Manage your cheques, mark outgoing payments, and make faster payments.</p>
                             </div>
                       </div>
                     </div>
@@ -1341,8 +1243,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                         <h4>General Ledger</h4>
-                        <p>Manage the credit and debit entries to maintain the
-                            entire financial data.</p>
+                        <p>Maintain real financial data by managing credit and debit entries.</p>
                             </div>
                       </div>
                     </div>
@@ -1361,8 +1262,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Customer management</h4>
-                            <p>Manage customers and keep track of their queries as
-                            well.</p>
+                            <p>Interact with your clients and seamlessly manage their queries.</p>
                         </div>
                       </div>
                     </div>
@@ -1373,8 +1273,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                         <h4>Sales Quote</h4>
-                        <p>Provides a sales quote to the customer to offer
-                            negotiations before making the actual invoice.</p>
+                        <p>Before creating an invoice, provide a sales quote to the client for easy negotiation.</p>
                             </div>
                       </div>
                     </div>
@@ -1385,8 +1284,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                         <h4>Sales order</h4>
-                        <p>Manages the process of creating sales orders with
-                            drop shipment and partial shipping functions.</p>
+                        <p>To control the creation of sales orders, you can provide drop-shipping and partial-shipping options.</p>
                             </div>
                       </div>
                     </div>
@@ -1397,8 +1295,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                         <h4>Sales Invoices</h4>
-                        <p>It creates a sales invoice for the actual purchases
-                            processed by the buyers.</p>
+                        <p>For actual purchases, it generates a sales invoice.</p>
                             </div>
                       </div>
                     </div>
@@ -1409,8 +1306,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                         <h4>Drop Shipments</h4>
-                        <p>Manages the purchase order to ship the products
-                            directly from vendor to customer.</p>
+                        <p>Your vendor can ship the goods directly to the customer with the help of the purchase order.</p>
                             </div>
                       </div>
                     </div>
@@ -1421,8 +1317,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                         <h4>Sales Returns</h4>
-                        <p>Manages the data of sales invoices of the product
-                            returned to release the refund amount.</p>
+                        <p>To assist the sales team in processing the refund amounts for returned products and manage the information on the sales invoices.</p>
                             </div>
                       </div>
                     </div>
@@ -1433,9 +1328,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                         <h4>Assembly Order</h4>
-                        <p>Create linked assembly orders to process the full or
-                            partial order quantity during product
-                            unavailability.</p>
+                        <p>The entire or part of an order can easily be fulfilled with linked assembly orders if the desired product is unavailable.</p>
                             </div>
                       </div>
                     </div>
@@ -1446,9 +1339,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                         <h4>Order Planning & Promising</h4>
-                        <p>Makes the customers informed about order delivery
-                            dates by analysing capable-to-promise or available
-                            to promise dates.</p>
+                        <p>Customers are informed of the delivery dates for their orders by analyzing the dates that can or are available to be promised.</p>
                             </div>
                       </div>
                     </div>
@@ -1459,8 +1350,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                         <h4>Single invoice Multiple Shipments</h4>
-                        <p>Combines multiple shipments and invoice a customer
-                            once.</p>
+                        <p>After combining several shipments, it enables you to create a single invoice for a client.</p>
                             </div>
                       </div>
                     </div>
@@ -1471,8 +1361,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                         <h4>Correction or Cancel Unpaid Invoices</h4>
-                        <p>Automatically creates sales invoices for corrections
-                            in unpaid invoices.</p>
+                        <p>Automatically generates sales invoices for adjustments to unpaid invoices.</p>
                             </div>
                       </div>
                     </div>
@@ -1483,8 +1372,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                         <h4>Pick List Creation</h4>
-                        <p>Enables users to create a shipment pick-up list from
-                            various vendor locations.</p>
+                        <p>The choice to compile a list of vendors from which to pick up shipments is given to users.</p>
                             </div>
                       </div>
                     </div>
@@ -1501,7 +1389,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Vendor Management</h4>
-                          <p>Creates a vendor card for each vendor to manages all purchases.</p>
+                          <p>To keep track of all purchases, a vendor card is created for every vendor.</p>
                         </div>
                       </div>
                     </div>
@@ -1512,8 +1400,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Purchase Quote</h4>
-                          <p>Create purchase quote from the vendor and later
-                            convert such quotes into purchase orders.</p>
+                          <p>Ask the supplier for purchase quotes, then convert those requests into purchase orders.</p>
                         </div>
                       </div>
                     </div>
@@ -1524,8 +1411,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Purchase Order</h4>
-                          <p>D365 BC manages all the purchase orders for the
-                            vendors.</p>
+                          <p>You can manage all the purchase orders from the list of vendors with the help of D365 Business Central.</p>
                         </div>
                       </div>
                     </div>
@@ -1536,8 +1422,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Purchase Invoices</h4>
-                          <p>Manages all the purchase invoices and manages vendor
-                            data to purchase products with terms.</p>
+                          <p>Helps in managing the management of all vendor information and purchase invoices for terms-based purchases.</p>
                         </div>
                       </div>
                     </div>
@@ -1548,8 +1433,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Purchase Items for Sales</h4>
-                          <p>D365 BC allows users to create a single invoice for
-                            multiple selected purchase invoices.</p>
+                          <p>You can merge several purchase items into one invoice for better sales using Business Central.</p>
                         </div>
                       </div>
                     </div>
@@ -1560,8 +1444,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Purchase Returns</h4>
-                          <p>Creates invoices for the vendor to show product
-                            return data along with the amount to be refunded.</p>
+                          <p>Creates vendor invoices that list the returned items along with the amount that was paid out.</p>
                         </div>
                       </div>
                     </div>
@@ -1572,8 +1455,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Combine Receipts on Single Invoice</h4>
-                          <p>It combines multiple invoices from the same vendor
-                            and converts them into a single one.</p>
+                          <p>You can combine multiple invoices from the same vendor into one with the aid of D365 Business Central.</p>
                         </div>
                       </div>
                     </div>
@@ -1584,8 +1466,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Electronic Documents</h4>
-                          <p>Manages and converts all the electronic invoices to
-                            purchase invoices from the vendors.</p>
+                          <p>The management and transformation of all electronic invoices into vendor purchase invoices.</p>
                         </div>
                       </div>
                     </div>
@@ -1596,8 +1477,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Date Calculation for Purchase</h4>
-                          <p>It reflects the data of products to be received on
-                            or before certain dates.</p>
+                          <p>It provides details about products that must be received by specified dates or earlier.</p>
                         </div>
                       </div>
                     </div>
@@ -1608,8 +1488,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Merge Duplicate Records</h4>
-                          <p>It merges all the duplicate records and eliminates
-                            all the confusion.</p>
+                          <p>Through the merging of all the redundant records, it clears up all confusion.</p>
                         </div>
                       </div>
                     </div>
@@ -1625,8 +1504,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Item Master Management</h4>
-                          <p>Creates the items or product cards an organisation
-                            generally trades.</p>
+                          <p>It enables you to create the products or product cards that a business trade.</p>
                         </div>
                       </div>
                     </div>
@@ -1637,9 +1515,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Bill of Materials</h4>
-                          <p>Creates the structure or data of the parent item to
-                            be sold as the parent item’s component kits to
-                            stock.</p>
+                          <p>Creates the parent item's structure or data to stock component kit versions of the parent item for sale.</p>
                         </div>
                       </div>
                     </div>
@@ -1650,8 +1526,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Item Categorization</h4>
-                          <p>Organises the items into categories and maintains an
-                            overall overview.</p>
+                          <p>While categorizing the elements, it maintains a comprehensive perspective.</p>
                         </div>
                       </div>
                     </div>
@@ -1662,8 +1537,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Item Attributes</h4>
-                          <p>Assign the attributes to the different items to make
-                            finding a specific item easy.</p>
+                          <p>Give the attributes to the various items to make it easier for employees to find a certain item.</p>
                         </div>
                       </div>
                     </div>
@@ -1674,8 +1548,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Item Catalog</h4>
-                          <p>Creates special item card that a company offers to
-                            its customers with no inventory</p>
+                          <p>Creates a special item card that a company can give to customers without keeping any in stock.</p>
                         </div>
                       </div>
                     </div>
@@ -1686,8 +1559,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Inventory Counting</h4>
-                          <p>Manages to keep the stock of items counted in
-                            real-time.</p>
+                          <p>Successfully keeps track of the inventory in real-time.</p>
                         </div>
                       </div>
                     </div>
@@ -1698,8 +1570,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Item Availablity</h4>
-                          <p>Manages item availability by location, time, sales
-                            event, use on assembly, and production BOMs.</p>
+                          <p>Monitors item availability based on location, time, sales event, use during assembly, and BOM production.</p>
                         </div>
                       </div>
                     </div>
@@ -1710,8 +1581,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Inventory Transfer</h4>
-                          <p>Manages all the transfer orders to transfer
-                            inventory items from one location to another.</p>
+                          <p>Manages all transfer orders that are used to move inventory items between locations.</p>
                         </div>
                       </div>
                     </div>
@@ -1722,8 +1592,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Item Reservation</h4>
-                          <p>Reserve some products from inventory for sales,
-                            service, purchase, assembly, and production orders.</p>
+                          <p>For sales, service, purchase, assembly, and production orders, set aside a few items from your inventory.</p>
                         </div>
                       </div>
                     </div>
@@ -1734,8 +1603,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Item Tracking</h4>
-                          <p>Helps the user to track items using a serial number
-                            or lot number in case of a recall situation.</p>
+                          <p>Helps the user track products using a serial number or lot number in the event of a recall situation.</p>
                         </div>
                       </div>
                     </div>
@@ -1746,8 +1614,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Block Items</h4>
-                          <p>Blocks some items from entering into sales or
-                            purchase lines or in any transaction.</p>
+                          <p>It can automatically stop some items from joining the selling or buying queues or taking part in any transactions.</p>
                         </div>
                       </div>
                     </div>
@@ -1762,9 +1629,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Item Receiving</h4>
-                          <p>Manages the record of all item receipts at the
-                            warehouse location along with the details of the
-                            purchase order.</p>
+                          <p>A purchase order's information and a record of all items that have been received at the warehouse are organized.</p>
                         </div>
                       </div>
                     </div>
@@ -1775,8 +1640,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Item Shipments</h4>
-                          <p>Manages the record of shipped items at the warehouse
-                            location along with the details of the sales order.</p>
+                          <p>Maintains a record of shipped goods at the warehouse and the sales order data.</p>
                         </div>
                       </div>
                     </div>
@@ -1787,8 +1651,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Cross Dock Items</h4>
-                          <p>Bypass, pick, and place expedited items in inventory
-                            for shipping.</p>
+                          <p>To ship expedited items, you can easily bypass, pick, or add them to your inventory.</p>
                         </div>
                       </div>
                     </div>
@@ -1799,8 +1662,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Putting Items Away</h4>
-                          <p>Classifies the items received from various available
-                            resources as per the configured warehouse process.</p>
+                          <p>D365 Business Central is equipped with automatic functionalities that help you decide which category the items received from various resources should be placed under through warehouse processes.</p>
                         </div>
                       </div>
                     </div>
@@ -1811,8 +1673,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Moving Items</h4>
-                          <p>Helps the organisation to move items from different
-                            locations in the warehouse.</p>
+                          <p>Enables the company to transport goods between various warehouse locations.</p>
                         </div>
                       </div>
                     </div>
@@ -1823,8 +1684,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Picking Items</h4>
-                          <p>Chooses the items for different purposes as per the
-                            data configured in the warehouse.</p>
+                          <p>Chooses the items based on the data set up in the warehouse for various uses.</p>
                         </div>
                       </div>
                     </div>
@@ -1835,8 +1695,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Automated Data Capture Systems (ADCS)</h4>
-                          <p>Track the movements of items in the warehouse using
-                            the barcode scanning feature.</p>
+                          <p>Tracks the movement of items inside the warehouse using the barcode scanning feature.</p>
                         </div>
                       </div>
                     </div>
@@ -1851,9 +1710,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Project Creation</h4>
-                          <p>The Dynamics 365 BS assists the organisation in
-                            creating and managing projects, as well as assigning
-                            jobs and planning projects.</p>
+                          <p>Dynamics 365 Business Central enables the organization to assign tasks, schedule projects, and help create and manage projects.</p>
                         </div>
                       </div>
                     </div>
@@ -1864,8 +1721,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Resource Allocations</h4>
-                          <p>Distributes resources to various tasks with price
-                            management prior to the start of each project.</p>
+                          <p>Prior to the start of each project, allocate resources with price management to various tasks.</p>
                         </div>
                       </div>
                     </div>
@@ -1876,9 +1732,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Time Sheet Management</h4>
-                          <p>Prepares the time sheet with job tasks, planning
-                            lines, and updates the time sheet lines to the job
-                            journal.</p>
+                          <p>The timesheet is put together using the job tasks, the planning lines, and the timesheet lines. Thereafter, the timesheet lines are updated in the job journal.</p>
                         </div>
                       </div>
                     </div>
@@ -1889,9 +1743,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Project Budget Management</h4>
-                          <p>Analyze and compare the distribution of the budget
-                            across various projects to check the quality, cost,
-                            and efficiency.</p>
+                          <p>Examine and compare the various projects' effectiveness, costs, and quality to see how the budget is distributed among them.</p>
                         </div>
                       </div>
                     </div>
@@ -1902,8 +1754,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Resource Consumptions</h4>
-                          <p>Keeps a record of all consumption based on various
-                            jobs and updates the data in real-time.</p>
+                          <p>Keeps a running record of all consumption based on various jobs and updates the data in real time.</p>
                         </div>
                       </div>
                     </div>
@@ -1914,9 +1765,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Project Supplies</h4>
-                          <p>Manages the purchase of all supplies needed to
-                            complete a project and keeps track of the item as
-                            well as the time spent on it.</p>
+                          <p>D365 Business Central also helps you keep track of the work product and the amount of time spent on it, as well as overseeing the acquisition of all materials necessary for the completion of a project.</p>
                         </div>
                       </div>
                     </div>
@@ -1927,9 +1776,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Project WIP Methods</h4>
-                          <p>This feature helps to ensure the creation of correct
-                            financial statements and makes a financial
-                            estimation of jobs.</p>
+                          <p>This feature in Business Central makes it possible to create accurate financial statements and estimate the financial cost of jobs.</p>
                         </div>
                       </div>
                     </div>
@@ -1940,9 +1787,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Project Progress and Performance</h4>
-                          <p>It manages the correct financial statements and the
-                            financial value of materials after consumption for a
-                            job.</p>
+                          <p>It oversees accurate financial reporting and the cost of materials used in a job after they have been consumed.</p>
                         </div>
                       </div>
                     </div>
@@ -1953,9 +1798,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Project Invoicing</h4>
-                          <p>Send the project’s invoice to the customer after the
-                            completion of a particular project or schedule it as
-                            required.</p>
+                          <p>Send the invoice to the client when a particular project is complete or schedule it as necessary.</p>
                         </div>
                       </div>
                     </div>
@@ -1966,8 +1809,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Merge Duplicate Records</h4>
-                          <p>Eliminates the duplicate records of the same vendors
-                            to remove the confusion.</p>
+                          <p>Eliminates redundant records for the same vendors to clear up confusion.</p>
                         </div>
                       </div>
                     </div>
@@ -1982,8 +1824,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Production Planning</h4>
-                          <p>To plan and suggest, the planning system demands a
-                            balanced supply chain.</p>
+                          <p>Planning, making suggestions, and balancing demand and supply chains are all made simple with Business Central.</p>
                         </div>
                       </div>
                     </div>
@@ -1994,8 +1835,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Supply Planning</h4>
-                          <p>Plan the supply and adjust the algorithms to meet
-                            the manufacturing requirements.</p>
+                          <p>You can modify Business Central's algorithms to meet your timing requirements for manufacturing, distribution, and procurement.</p>
                         </div>
                       </div>
                     </div>
@@ -2006,8 +1846,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Demand Forecasting</h4>
-                          <p>Enables the users to forecast the demand as per
-                            expected sales and production.</p>
+                          <p>D365 Business Central assists your business in maximizing sales and production by assisting with capacity limitations, demand forecasts, and material availability.</p>
                         </div>
                       </div>
                     </div>
@@ -2018,8 +1857,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Creation of Production Order from Sales Order</h4>
-                          <p>Manages the production orders from sales demand to
-                            cover the exact sales order demand.</p>
+                          <p>Ensures that production orders are placed in accordance with the precise specifications of the sales orders.</p>
                         </div>
                       </div>
                     </div>
@@ -2030,8 +1868,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Order Planning</h4>
-                          <p>Helps to manually plan for sales and production
-                            demand, but one BOM level at a time.</p>
+                          <p>Manually forecasting sales and product demand is possible with Business Central. But only one BOM level (Bill of Material) at a time.</p>
                         </div>
                       </div>
                     </div>
@@ -2042,8 +1879,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>MRP & MPS</h4>
-                          <p>For supply chain automation, the planning worksheet
-                            works on MPS and MRP options.</p>
+                          <p>Users of Business Central can automate the supply chain using the MRP (Materials Requirements Planning) and MPS (Master Production Schedule) options by using the planning worksheet.</p>
                         </div>
                       </div>
                     </div>
@@ -2054,8 +1890,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Requisition Worksheet</h4>
-                          <p>Creates data automatically about the supply chain
-                            and mentions the demand for refilled items.</p>
+                          <p>Creates data about the supply chain automatically and mentions the demand for refilled items.</p>
                         </div>
                       </div>
                     </div>
@@ -2066,8 +1901,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Calculate Work Centre Calendar</h4>
-                          <p>With D365 Business Central, it reschedules the work
-                            centre calendar due to sudden planning changes.</p>
+                          <p>D365 Business Central reschedules the work center calendar whenever there is an unexpected change in the plan.</p>
                         </div>
                       </div>
                     </div>
@@ -2078,8 +1912,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Item Availablity</h4>
-                          <p>Check the availability of a specific item and the
-                            insights of events that influence it.</p>
+                          <p>You can learn more about a specific item's influence and availability.</p>
                         </div>
                       </div>
                     </div>
@@ -2090,8 +1923,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Production Order</h4>
-                          <p>Create production orders manually or automatically
-                            with Dynamics 365 Business Central.</p>
+                          <p>D365 Business Central offers simple methods for creating production orders manually or automatically.</p>
                         </div>
                       </div>
                     </div>
@@ -2102,8 +1934,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Subcontracting</h4>
-                          <p>Helps decision makers to outsource the selected
-                            processes or operations to a subcontractor.</p>
+                          <p>Decision-makers can outsource their preferred processes or operations with the help of D365 Business Central.</p>
                         </div>
                       </div>
                     </div>
@@ -2114,9 +1945,7 @@ const BusinessCentral = () => {
                         </div>
                         <div className="content">
                           <h4>Production Consumption & Output</h4>
-                          <p>Record, post production output with material and
-                            time consumption for single released production
-                            line.</p>
+                          <p>The output of the single production line, and how much time and material it is used, can be recorded using Business Central for future reference.</p>
                         </div>
                       </div>
                     </div>
@@ -2533,142 +2362,6 @@ const BusinessCentral = () => {
           </div>
         </div>
       </section>
-
-      <section className="blogs-extra">
-        <div className="container">
-        <div className="row justify-content-center">
-<div className="col-lg-7 col-md-8">
-          <header className="section-header">
-            <h2>
-              Check out our Best Resources
-             
-              for Business Central
-            </h2>
-          </header>
-          </div></div>
-          <div className="row top-2 gx-5">
-            <Blog />
-            <div className="col-lg-6">
-              <div className="blogs-extra-title">
-                <h3>Documents</h3>
-              </div>
-              <div className="blogs-extra-right">
-                <ul>
-                  <li>
-                    <NavLink
-                      target="_blank"
-                      to="/assets/pdf/Is-Your-Business-Outgrowing-Your-Accounting-Software.pdf"
-                    >
-                      <i className="bi bi-file-earmark-pdf"></i> Is Your
-                      Business Outgrowing Your Accounting Software?
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink
-                      to="/assets/pdf/Business-Owners-Guide.pdf"
-                      target="_blank"
-                    >
-                      <i className="bi bi-file-earmark-pdf"></i> Business
-                      Owner's Guide
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink
-                      to="/assets/pdf/Reimagine-Productivity.pdf"
-                      target="_blank"
-                    >
-                      <i className="bi bi-file-earmark-pdf"></i> Reimagine
-                      Productivity
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink
-                      to="/assets/pdf/Dynamics_365_Enterprise_edition_Licensing_Guide.pdf"
-                      target="_blank"
-                    >
-                      <i className="bi bi-file-earmark-pdf"></i> Licensing Guide
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink
-                      to="/assets/pdf/Four-Technology-Trends-Helping-Businesses-Thrive-in-a-Digital-World.pdf"
-                      target="_blank"
-                    >
-                      <i className="bi bi-file-earmark-pdf"></i> Technology
-                      Trends Helping Businesses Thrive in a Digital World
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink
-                      to="/assets/pdf/Reinvent-productivity-with-Dynamics-365-and-Microsoft-365.pdf"
-                      target="_blank"
-                    >
-                      <i className="bi bi-file-earmark-pdf"></i> Reinvent
-                      productivity with Dynamics 365 and Microsoft 365
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink
-                      to="/assets/pdf/The-Total-Economic-Impact-of-Microsoft-Dynamics-365-Business-Central.pdf"
-                      target="_blank"
-                    >
-                      <i className="bi bi-file-earmark-pdf"></i> The Total
-                      Economic Impact of Dynamics 365 Business Central
-                    </NavLink>
-                  </li>
-                </ul>
-              </div>
-              <div className="blogs-extra-title">
-                <h3>Learn More</h3>
-              </div>
-              <div className="blogs-extra-right">
-                <ul>
-                  <li>
-                    <ExternalLink
-                      rel=""
-                      href="/why-choose-microsoft-dynamics-365-business-central/"
-                      target="_self"
-                    >
-                      <i className="bi bi-box-arrow-up-right"></i> Why Choose
-                      Microsoft Dynamics 365 Business Central?
-                    </ExternalLink>
-                  </li>
-                  <li>
-                    <ExternalLink
-                      rel=""
-                      href="/advantages-capabilities/"
-                      target="_self"
-                    >
-                      <i className="bi bi-box-arrow-up-right"></i> Advantages
-                      and Capabilities
-                    </ExternalLink>
-                  </li>
-                  <li>
-                    <ExternalLink
-                      rel=""
-                      href="https://www.dynamicssquare.com/upgrade-dynamics-nav-to-dynamics-365-business-central/"
-                      target="_self"
-                    >
-                      <i className="bi bi-box-arrow-up-right"></i> Why to
-                      Upgrade Dynamics NAV to Business Central
-                    </ExternalLink>
-                  </li>
-                  <li>
-                    <ExternalLink
-                      rel=""
-                      href="https://www.dynamicssquare.com/reasons-to-upgrade-accounting-software/"
-                      target="_self"
-                    >
-                      <i className="bi bi-box-arrow-up-right"></i> Is Your
-                      Business Outgrowing Your Accounting Software?
-                    </ExternalLink>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
       <section className="solution-faq faq">
         <div className="container">
           <header className="section-header">
@@ -2857,7 +2550,7 @@ const BusinessCentral = () => {
                       Business Central is an all-in-one solution for all your business requirements. With D365 Business Central, enterprises can manage their entire practices including sales, <NavLink to="/products/microsoft-dynamics-365-finance/">finance</NavLink> , customers, manufacturing, <NavLink to="/products/dynamics-365-supply-chain-management/">supply chain</NavLink>, project operations, human resources, and reporting & analytics.
                       </p>
                       <p>
-                      Since Business Central is quite flexible and thereby, can be integrated with any of Microsoft’s applications as well as with your existing system configurations. Thus, if your requirement goes for advanced reporting capabilities, then Power BI is the high-end solution to drive so. Enterprises can integrate their Business Central with Power BI to drive effective reporting strategies and avail of required key analytics to strengthen their decision-making.
+                      Since Business Central is quite flexible and thereby, can be integrated with any of Microsoft's applications as well as with your existing system configurations. Thus, if your requirement goes for advanced reporting capabilities, then Power BI is the high-end solution to drive so. Enterprises can integrate their Business Central with Power BI to drive effective reporting strategies and avail of required key analytics to strengthen their decision-making.
                       </p>
                     </div>
                   </div>
@@ -2867,6 +2560,142 @@ const BusinessCentral = () => {
           </div>
         </div>
       </section>
+      <section className="blogs-extra">
+        <div className="container">
+        <div className="row justify-content-center">
+<div className="col-lg-7 col-md-8">
+          <header className="section-header">
+            <h2>
+              Check out our Best Resources
+             
+              for Business Central
+            </h2>
+          </header>
+          </div></div>
+          <div className="row top-2 gx-5">
+            <Blog />
+            <div className="col-lg-6">
+              <div className="blogs-extra-title">
+                <h3>Documents</h3>
+              </div>
+              <div className="blogs-extra-right">
+                <ul>
+                  <li>
+                    <NavLink
+                      target="_blank"
+                      to="/assets/pdf/Is-Your-Business-Outgrowing-Your-Accounting-Software.pdf"
+                    >
+                      <i className="bi bi-file-earmark-pdf"></i> Is Your
+                      Business Outgrowing Your Accounting Software?
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink
+                      to="/assets/pdf/Business-Owners-Guide.pdf"
+                      target="_blank"
+                    >
+                      <i className="bi bi-file-earmark-pdf"></i> Business
+                      Owner's Guide
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink
+                      to="/assets/pdf/Reimagine-Productivity.pdf"
+                      target="_blank"
+                    >
+                      <i className="bi bi-file-earmark-pdf"></i> Reimagine
+                      Productivity
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink
+                      to="/assets/pdf/Dynamics_365_Enterprise_edition_Licensing_Guide.pdf"
+                      target="_blank"
+                    >
+                      <i className="bi bi-file-earmark-pdf"></i> Licensing Guide
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink
+                      to="/assets/pdf/Four-Technology-Trends-Helping-Businesses-Thrive-in-a-Digital-World.pdf"
+                      target="_blank"
+                    >
+                      <i className="bi bi-file-earmark-pdf"></i> Technology
+                      Trends Helping Businesses Thrive in a Digital World
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink
+                      to="/assets/pdf/Reinvent-productivity-with-Dynamics-365-and-Microsoft-365.pdf"
+                      target="_blank"
+                    >
+                      <i className="bi bi-file-earmark-pdf"></i> Reinvent
+                      productivity with Dynamics 365 and Microsoft 365
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink
+                      to="/assets/pdf/The-Total-Economic-Impact-of-Microsoft-Dynamics-365-Business-Central.pdf"
+                      target="_blank"
+                    >
+                      <i className="bi bi-file-earmark-pdf"></i> The Total
+                      Economic Impact of Dynamics 365 Business Central
+                    </NavLink>
+                  </li>
+                </ul>
+              </div>
+              <div className="blogs-extra-title">
+                <h3>Learn More</h3>
+              </div>
+              <div className="blogs-extra-right">
+                <ul>
+                  <li>
+                    <ExternalLink
+                      rel=""
+                      href="/why-choose-microsoft-dynamics-365-business-central/"
+                      target="_self"
+                    >
+                      <i className="bi bi-box-arrow-up-right"></i> Why Choose
+                      Microsoft Dynamics 365 Business Central?
+                    </ExternalLink>
+                  </li>
+                  <li>
+                    <ExternalLink
+                      rel=""
+                      href="/advantages-capabilities/"
+                      target="_self"
+                    >
+                      <i className="bi bi-box-arrow-up-right"></i> Advantages
+                      and Capabilities
+                    </ExternalLink>
+                  </li>
+                  <li>
+                    <ExternalLink
+                      rel=""
+                      href="https://www.dynamicssquare.com/upgrade-dynamics-nav-to-dynamics-365-business-central/"
+                      target="_self"
+                    >
+                      <i className="bi bi-box-arrow-up-right"></i> Why to
+                      Upgrade Dynamics NAV to Business Central
+                    </ExternalLink>
+                  </li>
+                  <li>
+                    <ExternalLink
+                      rel=""
+                      href="https://www.dynamicssquare.com/reasons-to-upgrade-accounting-software/"
+                      target="_self"
+                    >
+                      <i className="bi bi-box-arrow-up-right"></i> Is Your
+                      Business Outgrowing Your Accounting Software?
+                    </ExternalLink>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    
     </>
   );
 };
