@@ -122,6 +122,7 @@ import PdfpgDownload from "./PdfpgDownload";
 import DynamicsEmailerPowerBIGuide from "./DynamicsEmailerPowerBIGuide";
 import DynamicsEmailerCRM from "./DynamicsEmailerCRM";
 import SupplyChainImplementationServices from "./SupplyChainImplementationServices";
+import MicrosoftDynamicsPartnerTexas from "./MicrosoftDynamicsPartnerTexas";
 
 const App = () => {
   return (
@@ -573,6 +574,11 @@ const App = () => {
           exact
           path="/dynamics-365-sales-implementation/"
           component={SupplyChainImplementationServices}
+        />
+        <Route
+          exact
+          path="/microsoft-dynamics-365-partner-in-texas/"
+          component={MicrosoftDynamicsPartnerTexas}
         />
         <Route exact path="/components/" component={MyComponents} />
         <Route exact path="/form2/" component={Form2} />
