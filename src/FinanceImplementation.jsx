@@ -16,7 +16,7 @@ const FinanceImplementation = () => {
       <title>Dynamics 365 Finance Implementations | AX implementations</title>
 <meta name="description" content="Experience the power of Enterprise Grade ERP Platform Dynamics 365 Finance Implementation. Get Dynamics 365 Finance &amp; Operations Implementation packages."/>
 <link rel="canonical" href="https://www.dynamicssquare.com/dynamics-365-finance-implementation/" />
-<meta property="og:locale" content="en_GB" />
+<meta property="og:locale" content="en_US" />
       </Helmet>
       <section className="Solution-banner hero-1 hero">
         <div className="container">

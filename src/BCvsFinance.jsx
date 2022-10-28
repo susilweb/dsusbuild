@@ -8,7 +8,8 @@ const BCvsFinance = () => {
       <Helmet>
       <title>Dynamics 365 Business Central vs Dynamics 365 Finance</title>
 <meta name="description" content="Let&#039;s compare between two Microsoft Business Applications: Dynamics 365 Business Central vs Dynamics 365 Finance to get the right decision for your busienss growth."/>
-<link rel="canonical" href="https://www.dynamicssquare.co.uk/d365-business-central-vs-d365-finance/" />
+<link rel="canonical" href="https://www.dynamicssquare.com/d365-business-central-vs-d365-finance/" />
+<meta property="og:locale" content="en_US" />
       </Helmet>
       <section className="Solution-banner hero-1 hero">
         <div className="container">

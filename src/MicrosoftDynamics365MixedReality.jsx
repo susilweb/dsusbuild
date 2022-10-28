@@ -307,7 +307,7 @@ const MicrosoftDynamics365MixedReality = () => {
                   <img
                     src="/assets/img/mixed-reality-side-image.png"
                     className="fix-im"
-                    alt="mixed-reality-side-image"
+                    alt="mixed-reality-side-images"
                   />
                   <div className="video-ytube video-ytubes">
                     <div className="popup-btn popup-btns">

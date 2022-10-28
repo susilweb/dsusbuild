@@ -38,7 +38,7 @@ const FinanceOperations = () => {
             <div className="col-lg-6 align-self-center">
               <img
                 src="/assets/img/Dynamics-365-Finance-Banner-1.svg"
-                alt="image"
+                alt="Finance-Banner"
               />
             </div>
           </div>

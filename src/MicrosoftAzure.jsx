@@ -14,52 +14,10 @@ const MicrosoftAzure = () => {
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.co.uk/products/microsoft-azure/"
+          href="https://www.dynamicssquare.com/products/microsoft-azure/"
         />
-        <meta property="og:locale" content="en_GB" />
-        <meta property="og:type" content="article" />
-        <meta
-          property="og:title"
-          content="Microsoft Azure | Microsoft Azure Cloud Services"
-        />
-        <meta
-          property="og:description"
-          content="Microsoft Azure is referred to cloud computing service owned and operated by Microsoft to manage hosted applications via its Microsoft-managed data centers."
-        />
-        <meta
-          property="og:url"
-          content="https://www.dynamicssquare.co.uk/products/microsoft-azure/"
-        />
-        <meta property="og:site_name" content="Dynamics Square" />
-        <meta
-          property="article:publisher"
-          content="https://www.facebook.com/dynamicssquareuk"
-        />
-        <meta
-          property="article:author"
-          content="https://www.facebook.com/vickygururani"
-        />
-        <meta property="fb:app_id" content="2007906422699147" />
-        <meta property="og:image" content="" />
-        <meta property="og:image:secure_url" content="" />
-        <meta property="og:image:width" content="1324" />
-        <meta property="og:image:height" content="788" />
-        <meta property="og:image:alt" content="Microsoft Azure" />
-        <meta property="og:image:type" content="image/png" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="Microsoft Azure | Microsoft Azure Cloud Services"
-        />
-        <meta
-          name="twitter:description"
-          content="Microsoft Azure is referred to cloud computing service owned and operated by Microsoft to manage hosted applications via its Microsoft-managed data centers."
-        />
-        <meta name="twitter:site" content="@dsquare_uk" />
-        <meta name="twitter:creator" content="@dsquare_uk" />
-        <meta name="twitter:image" content="" />
-        <meta name="twitter:label1" content="Time to read" />
-        <meta name="twitter:data1" content="3 minutes" />
+        <meta property="og:locale" content="en_US" />
+        
       </Helmet>
       <section className="Solution-banner hero-1 hero">
         <div className="container">

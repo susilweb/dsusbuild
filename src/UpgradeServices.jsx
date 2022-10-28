@@ -19,49 +19,6 @@ const UpgradeServices = () => {
           href="https://www.dynamicssquare.com/our-services/dynamics-365-upgrade-services/"
         />
         <meta property="og:locale" content="en_US" />
-        <meta property="og:type" content="article" />
-        <meta
-          property="og:title"
-          content="Dynamics 365 Upgrade Service Partner | Trusted by 250+ Clients"
-        />
-        <meta
-          property="og:description"
-          content="Keep your business up to date with our Dynamics 365 Upgrade services. Improve your system with new functionalities and transform overall business flow."
-        />
-        <meta
-          property="og:url"
-          content="https://www.dynamicssquare.com/our-services/dynamics-365-upgrade-services/"
-        />
-        <meta property="og:site_name" content="Dynamics Square" />
-        <meta
-          property="article:publisher"
-          content="https://www.facebook.com/dynamicssquareus"
-        />
-        <meta
-          property="article:author"
-          content="https://www.facebook.com/vickygururani"
-        />
-        <meta property="fb:app_id" content="2007906422699147" />
-        <meta property="og:image" content="" />
-        <meta property="og:image:secure_url" content="" />
-        <meta property="og:image:width" content="1024" />
-        <meta property="og:image:height" content="617" />
-        <meta property="og:image:alt" content="contact-form-image" />
-        <meta property="og:image:type" content="image/png" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="Dynamics 365 Upgrade Service Partner | Trusted by 250+ Clients"
-        />
-        <meta
-          name="twitter:description"
-          content="Upgrade your system capabilities, process flow, adapt operational change through our highly integrated Dynamics 365 upgrade services."
-        />
-        <meta name="twitter:site" content="@dsquare_uk" />
-        <meta name="twitter:creator" content="@dsquare_uk" />
-        <meta name="twitter:image" content="" />
-        <meta name="twitter:label1" content="Time to read" />
-        <meta name="twitter:data1" content="3 minutes" />
       </Helmet>
       <section className="Solution-banner hero-1 hero">
         <div className="container">

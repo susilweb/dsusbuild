@@ -9,6 +9,7 @@ const BusinessCentralVSFinance = () => {
       <title>Dynamics 365 Business Central vs Finance &amp; Operations</title>
 <meta name="description" content="Let's compare between Dynamics 365 Business Central vs Finance &amp; Operations to get a deeper understanding about the two ERP systems. Comparison table inside."/>
 <link rel="canonical" href="https://www.dynamicssquare.com/dynamics-365-business-central-vs-finance-operations/" />
+<meta property="og:locale" content="en_US" />
       </Helmet>
       <section className="Solution-banner hero-1 hero">
         <div className="container">

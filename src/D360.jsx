@@ -287,7 +287,7 @@ const D360 = () => {
           <div className="row">
             <div className="col-lg-5">
               <div className="call_to_action-right over-img">
-                <img src="/assets/img/MaskGroup8.png" alt="image" />
+                <img src="/assets/img/MaskGroup8.png" alt="images" />
               </div>
             </div>
             <div className="col-lg-7 align-self-center">

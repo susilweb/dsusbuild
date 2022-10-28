@@ -286,7 +286,7 @@ const Sales = () => {
                   Implement Dynamics 365 Sales to empower your Salespeople and strengthen your sales practices.
                   </p>
                   <div className="action-content">
-                    <Link to="/our-services/dynamics-365-implementation-services/">
+                    <Link to="/dynamics-365-sales-implementation/">
                       Get Started
                     </Link>
                   </div>
@@ -630,7 +630,7 @@ const Sales = () => {
                       <p>For Subsequent Dynamics 365 App - 15 pounds/per user (approx.)</p>
                       <p><b>Dynamics 365 Sales Enterprise</b></p>
                       <p>For First Dynamics 365 App - 70 Pounds/per user (approx.)</p>
-                      <p>For Subsequent Dynamics 365 App – 15 pounds/per user (approx.)</p>
+                      <p>For Subsequent Dynamics 365 App - 15 pounds/per user (approx.)</p>
                     </div>
                   </div>
                 </div>
@@ -674,7 +674,7 @@ const Sales = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>To access Dynamics 365 Sales Professional, you are required to sign in first. For doing so, simply follow: Microsoft 365 App Launcher->Dynamics 365 Make sure, you have availed of a subscription for Dynamics 365 Sales Professional plan. Further, navigate to Dynamics 365 home page and select Sales Professional. Now, your system is ready to start optimizing things. To learn more, connect with our professionals today, we are here to help.</p>
+                      <p>To access Dynamics 365 Sales Professional, you are required to sign in first. For doing so, simply follow: Microsoft 365 App Launcher-Dynamics 365 Make sure, you have availed of a subscription for Dynamics 365 Sales Professional plan. Further, navigate to Dynamics 365 home page and select Sales Professional. Now, your system is ready to start optimizing things. To learn more, connect with our professionals today, we are here to help.</p>
                     </div>
                   </div>
                 </div>

@@ -21,50 +21,7 @@ const SupplyChainManagement = () => {
           rel="canonical"
           href="https://www.dynamicssquare.com/products/dynamics-365-supply-chain-management/"
         />
-        <meta property="og:locale" content="en_us" />
-        <meta property="og:type" content="article" />
-        <meta
-          property="og:title"
-          content="Dynamics 365 Supply Chain Management | Dynamics Square"
-        />
-        <meta
-          property="og:description"
-          content="Dynamics 365 Supply Chain management helps organizations simplify, streamline, and accelerate their supply chain practices just to produce, drive, and scale high."
-        />
-        <meta
-          property="og:url"
-          content="https://www.dynamicssquare.com/products/dynamics-365-supply-chain-management/"
-        />
-        <meta property="og:site_name" content="Dynamics Square" />
-        <meta
-          property="article:publisher"
-          content="https://www.facebook.com/dynamicssquareusa"
-        />
-        <meta
-          property="article:author"
-          content="https://www.facebook.com/vickygururani"
-        />
-        <meta property="fb:app_id" content="2007906422699147" />
-        <meta property="og:image" content=" " />
-        <meta property="og:image:secure_url" content="" />
-        <meta property="og:image:width" content="1058" />
-        <meta property="og:image:height" content="786" />
-        <meta property="og:image:alt" content="Accelerate Time to Market" />
-        <meta property="og:image:type" content="image/jpeg" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="Dynamics 365 Supply Chain Management | Dynamics Square"
-        />
-        <meta
-          name="twitter:description"
-          content="Dynamics 365 Supply Chain management helps organizations simplify, streamline, and accelerate their supply chain practices just to produce, drive, and scale high."
-        />
-        <meta name="twitter:site" content="@dsquare_uk" />
-        <meta name="twitter:creator" content="@dsquare_uk" />
-        <meta name="twitter:image" content="" />
-        <meta name="twitter:label1" content="Time to read" />
-        <meta name="twitter:data1" content="6 minutes" />
+        <meta property="og:locale" content="en_US" />
       </Helmet>
 
       <ModalVideo

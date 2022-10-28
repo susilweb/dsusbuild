@@ -32,7 +32,7 @@ const CloudvsOnpremise = () => {
             <div className="col-lg-6 align-self-center">
               <img
                 src="/assets/img/MicrosoftTeams-image-5.png"
-                alt="MicrosoftTeams-image-5"
+                alt="MicrosoftTeams-images-5"
               />
             </div>
           </div>
@@ -463,7 +463,7 @@ const CloudvsOnpremise = () => {
           <div className="row">
             <div className="col-lg-5">
               <div className="call_to_action-right over-img">
-                <img src="/assets/img/MaskGroup8.png" alt="image" />
+                <img src="/assets/img/MaskGroup8.png" alt="MaskGroup8" />
               </div>
             </div>
             <div className="col-lg-7 align-self-center">

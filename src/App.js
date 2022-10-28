@@ -121,6 +121,8 @@ import Guides from "./Guides";
 import PdfpgDownload from "./PdfpgDownload";
 import DynamicsEmailerPowerBIGuide from "./DynamicsEmailerPowerBIGuide";
 import DynamicsEmailerCRM from "./DynamicsEmailerCRM";
+import SupplyChainImplementationServices from "./SupplyChainImplementationServices";
+
 const App = () => {
   return (
     <>
@@ -566,6 +568,11 @@ const App = () => {
           exact
           path="/email-dynamics365-crm/"
           component={DynamicsEmailerCRM}
+        />
+     <Route
+          exact
+          path="/dynamics-365-sales-implementation/"
+          component={SupplyChainImplementationServices}
         />
         <Route exact path="/components/" component={MyComponents} />
         <Route exact path="/form2/" component={Form2} />

@@ -15,48 +15,7 @@ const OurServicesList = () => {
         />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="article" />
-        <meta
-          property="og:title"
-          content="Microsoft Dynamics Services | Trusted by 300+ Clients"
-        />
-        <meta
-          property="og:description"
-          content="We deliver comprehensive Dynamics 365 services including consulting, training, upgrade and implementation of Microsoft Business Applications to grow your business fast."
-        />
-        <meta
-          property="og:url"
-          content="https://www.dynamicssquare.com/our-services/"
-        />
-        <meta property="og:site_name" content="Dynamics Square" />
-        <meta
-          property="article:publisher"
-          content="https://www.facebook.com/dynamicssquareuk"
-        />
-        <meta
-          property="article:author"
-          content="https://www.facebook.com/vickygururani"
-        />
-        <meta property="fb:app_id" content="2007906422699147" />
-        <meta property="og:image" content="" />
-        <meta property="og:image:secure_url" content="" />
-        <meta property="og:image:width" content="570" />
-        <meta property="og:image:height" content="340" />
-        <meta property="og:image:alt" content="Microsoft Dynamics Services" />
-        <meta property="og:image:type" content="image/jpeg" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="Microsoft Dynamics Services | Trusted by 300+ Clients"
-        />
-        <meta
-          name="twitter:description"
-          content="Power your business by our unique Microsoft Dynamics Services that includes Implementation services, cloud migration, consulting services and upgrade."
-        />
-        <meta name="twitter:site" content="@dsquare_us" />
-        <meta name="twitter:creator" content="@dsquare_us" />
-        <meta name="twitter:image" content="" />
-        <meta name="twitter:label1" content="Time to read" />
-        <meta name="twitter:data1" content="1 minute" />
+    
       </Helmet>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
@@ -82,7 +41,7 @@ const OurServicesList = () => {
             <div className="col-lg-6 align-self-center">
               <img
                 src="/assets/img/dynamics-365-hero-image.svg"
-                alt="dynamics-365-hero-image.svg"
+                alt="dynamics-365-hero-images.svg"
               />
             </div>
           </div>

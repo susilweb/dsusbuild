@@ -9,29 +9,8 @@ const BusinessCentralImplementation = () => {
 <meta name="description" content="Dynamics 365 Business Central Implementation: Enables businesses to Automate &amp; Streamline Data, Optimize Resources, Boost Supply Chain and many more!"/>
 <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
 <link rel="canonical" href="https://www.dynamicssquare.com/dynamics-365-business-central-implementation/" />
-<meta property="og:locale" content="en_us" />
-<meta property="og:type" content="article" />
-<meta property="og:title" content="Dynamics 365 Business Central Implementation | Dynamics Square" />
-<meta property="og:description" content="We ensure that your Dynamics 365 Business Central implementation process goes smoothly. Explore our Business Central implementation methodology and guide." />
-<meta property="og:url" content="https://www.dynamicssquare.com/dynamics-365-business-central-implementation/" />
-<meta property="og:site_name" content="Dynamics Square" />
-<meta property="article:publisher" content="https://www.facebook.com/dynamicssquareuk" />
-<meta property="article:author" content="https://www.facebook.com/vickygururani" />
-<meta property="fb:app_id" content="2007906422699147" />
-<meta property="og:image" content=" " />
-<meta property="og:image:secure_url" content="https://www.dynamicssquare.co.uk/assets/img/business-central-implementation-banner (1).svg" />
-<meta property="og:image:width" content="633" />
-<meta property="og:image:height" content="482" />
-<meta property="og:image:alt" content="Business Central Implementation features" />
-<meta property="og:image:type" content="image/png" />
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Dynamics 365 Business Central Implementation | Dynamics Square" />
-<meta name="twitter:description" content="We ensure that your Dynamics 365 Business Central implementation process goes smoothly. Explore our Business Central implementation methodology and guide." />
-<meta name="twitter:site" content="@dsquare_uk" />
-<meta name="twitter:creator" content="@dsquare_uk" />
-<meta name="twitter:image" content=" " />
-<meta name="twitter:label1" content="Time to read" />
-<meta name="twitter:data1" content="8 minutes" />
+<meta property="og:locale" content="en_US" />
+
       </Helmet>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
