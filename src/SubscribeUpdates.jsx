@@ -1,8 +1,6 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 import { Helmet } from "react-helmet";
-import { Link } from "react-router-dom";
-import { ExternalLink } from "react-external-link";
+import FooterHide from "./FooterHide";
 import FormSubsriber from "./FormSubsriber";
 const SubscribeUpdates = () => {
   return (
@@ -14,7 +12,7 @@ const SubscribeUpdates = () => {
 <meta property="og:locale" content="en_US" />
       </Helmet>
      
-      <section className="Solution-banner hero-1 hero hero-demo-form">
+      <section className="Solution-banner hero-demo-form">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-6 align-self-center text-center">
@@ -44,6 +42,8 @@ const SubscribeUpdates = () => {
           </div>
         </div>
       </section>
+
+      <FooterHide />
       
     </>
   );

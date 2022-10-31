@@ -18,7 +18,8 @@ const Footer = () => {
     pathname === "/contact-us/" ||
     pathname === "/thank-you/" ||
     pathname === "/email-dynamics365-crm/" ||
-    pathname === "/emailer-power-bi/"
+    pathname === "/emailer-power-bi/" ||
+    pathname === "/subscribe-updates/"
   ) {
     //setStyle("dspn");
     return null;
