@@ -12,7 +12,7 @@ const SubscribeUpdates = () => {
 <meta property="og:locale" content="en_US" />
       </Helmet>
      
-      <section className="Solution-banner hero-demo-form">
+      <section className="Solution-banner hero hero-demo-form">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-6 align-self-center text-center">
@@ -42,7 +42,6 @@ const SubscribeUpdates = () => {
           </div>
         </div>
       </section>
-
       <FooterHide />
       
     </>

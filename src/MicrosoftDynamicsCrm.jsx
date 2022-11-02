@@ -79,12 +79,11 @@ const MicrosoftDynamicsCrm = () => {
             <div className="col-lg-5 align-self-center">
               <div className="side-heading">
                 <h2>
-                Why Choose Microsoft Dynamics CRM Solution?
+                Worthwhile Reasons for Choosing Dynamics 365 CRM Solutions 
                 </h2>
               </div>
               <div className="custom002">
-                <p>If you want to enable sales & service automation, efficiently connect & engage customers, and improve your customer anticipations, choose Microsoft Dynamics CRM solution. With the help of Dynamics CRM you can leverage AI efficiency and IoT connected data-driven practices, streamline your enterprise practices, build & sustain customer relationships, increase productivity, and impact your revenue model.</p>
-                <p>With the help of Dynamics CRM, you can seamlessly align your sales & marketing, improve team collaboration, and ensure the success of your digital campaigns. Moreover, you can automate data, streamline tasks, understand your customers’ behavior, elevate sales level, and bring transparency in your entire sales process with real-time efficiency to maximize your growth potentials.</p>
+                <p>Microsoft Dynamics CRM is an all-in-one customer management solution whereby enterprises can manage and streamline their business flow from sales & marketing to customer service to delivery part. By implementing Dynamics CRM, enterprises can drive successful customer engagement campaigns, improve their sales activities, and ensure desired profitability. </p>
               </div>
             </div>
           </div>
@@ -214,7 +213,7 @@ const MicrosoftDynamicsCrm = () => {
               <div className="call-to-action-content">
                 <h3>Talk About Your Requirement Today</h3>
                 <p>
-                Let’s have a fruitful discussion to reveal your actual business requirement fulfilling your pain areas and supporting your growth strategy.
+                Let's have a fruitful discussion to reveal your actual business requirement fulfilling your pain areas and supporting your growth strategy.
                 </p>
                 <div className="text-center m-o-t new-btn-nn">
                   <NavLink
@@ -251,14 +250,7 @@ const MicrosoftDynamicsCrm = () => {
             <div className="col-lg-6 align-self-center">
               <div className="commen-rit-info">
                 <h3>Dynamics 365 for Sales</h3>
-                <p>
-                  Maximize your sales capabilities by bringing transparency and
-                  efficiency throughout your sales practices. Engage with your
-                  customers wherever they are in real-time, build sustainable
-                  customer relationships to impact or accelerate your sales.
-                  Streamline your sales data, collaborate with your team
-                  seamlessly, empower your workforce to adapt quickly.
-                </p>
+                <p>Strengthen your business capabilities, bring transparency in your sales activities, and enlarge your customer experience by engaging and serving them whenever and wherever they are in need. Build and drive improved yet sustainable customer relationships to close more deals faster while enabling your users to quickly adapt to the system and start working toward fulfilling the sales objectives.</p>
                 <div className="cltt-actt">
                   <NavLink to="/products/microsoft-dynamics-365-sales/">
                     Learn More
@@ -272,15 +264,7 @@ const MicrosoftDynamicsCrm = () => {
             <div className="col-lg-5 align-self-center">
               <div className="commen-rit-info">
                 <h3>Dynamics 365 for Customer Service</h3>
-                <p>
-                  Support your customers with real-time efficiency and serve
-                  them a personalized experience. Empower your team to
-                  collaborate and drive optimal experiences with highly embedded
-                  tools to respond to your customers. Proactively manage your
-                  customers' issues and fix them <NavLink target="_blank" to="/products/microsoft-dynamics-365-ai/">leveraging AI insights</NavLink> & IoT
-                  connected devices as well as provide optimal support to your
-                  customers.
-                </p>
+                <p>Seamlessly connect your customers, ensure timely fulfillment, and support them with the anticipated solution in real-time. Using high-end Dynamics CRM features wrapped with AI sales insights combined with IoT connected devices, key customer data, and other sales analytics; proactively track & manage your customers and respond to them or fix their issues in real-time.</p>
                 <div className="cltt-actt">
                   <NavLink to="/products/microsoft-dynamics-365-customer-service/">
                     Learn More
@@ -311,10 +295,8 @@ const MicrosoftDynamicsCrm = () => {
            
             <div className="col-lg-6 align-self-center">
               <div className="commen-rit-info">
-                <h3>Dynamics 365 for Marketing</h3>
-                <p>
-                Microsoft Dynamics Marketing enables your marketing team to easily plan and execute campaigns using the power of Excel and Power BI. With this tool, you can measure campaign performance across channels from start to finish, engage customers one-to-one, build your sales pipeline, and demonstrate the impact of your marketing investments in real-time. This tool is essential for any marketing team that wants to bring their vision to life and see the results of their efforts in an easy-to-understand format.
-                </p>
+                <h3>Dynamics 365 for Field Service</h3>
+                <p>Enable your field service executives to collaborate and serve their customers in real-time leveraging AI insights and connected experience. MS Dynamics CRM empowers your field executive to accelerate their performance with the help of Microsoft's CRM solutions. With this advanced CRM configuration, enterprises can enable their workforce to deliver high-end customer solutions or instant technical support. </p>
                 <div className="cltt-actt">
                   <NavLink to="/products/microsoft-dynamics-365-marketing/">
                     Learn More
@@ -327,10 +309,8 @@ const MicrosoftDynamicsCrm = () => {
           <div className="row pad9x">
             <div className="col-lg-5 align-self-center">
               <div className="commen-rit-info">
-                <h3>Dynamics 365 Project Operations</h3>
-                <p>
-                Manage your sales, resource utilization, project management, and financial flow leveraging a single integrated app to close more deals, faster the project delivery, and drive maximized outcomes. To enhance your system capabilities and drive innovation throughout their project management process, enterprises can integrate their project service automation with their existing tools.
-                </p>
+                <h3>Dynamics 365 Project Service Automation</h3>
+                <p>Bring collaboration in your end-to-end processes and drive integrated experience comprising sales management, resource utilization, project management, financial management, and more. By ensuring effective use of this functionality, enterprises can drive seamless project automation, close more deals faster, accelerate their project delivery, and enhance their revenues.</p>
                 <div className="cltt-actt">
                   <NavLink to="/products/dynamics-365-project-operations/">
                     Learn More

@@ -6,7 +6,7 @@ const MicrosoftDynamicsPartnerTexas = () => {
   return (
     <>
       <Helmet>
-      <title>Microsoft Dynamics Partner Liverpool, UK | Dynamics Square</title>
+      <title>Microsoft Dynamics Partner Texas, USA | Dynamics Square</title>
       <meta name="description" content="Looking for a trust-worthy Microsoft Dynamics 365 Implementation partner in Texas, USA? Then Dynamics Square is your one-stop solution for Dynamics 365 implementation, support, & consulting, Get in connection with us."/>
       <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
       <link rel="canonical" href="https://www.dynamicssquare.com/microsoft-dynamics-365-partner-in-texas/" />

@@ -314,12 +314,7 @@ const Erp = () => {
               <div className="commen-rit-info">
                 <h2>Dynamics NAV</h2>
                 <p>
-                  Designed for small to mid-sized organizations embedded with
-                  proven domain-specific functionality and seamless navigation
-                  to effectively drive finance, supply chain, manufacturing, and
-                  operations. Microsoft Dynamics NAV (Navision) enables brands
-                  to make early and productive decisions based on recent
-                  AI-enabled historical data, events, or business flow.
+                Microsoft Dynamics NAV is a former version of Business Central that can be implemented whether on-premises or on-cloud depending on your data-driven requirement. With NAV, enterprises can control and manage their finance, supply chain, manufacturing, and operations seamlessly and effortlessly. They can keep their eyes in real-time when configured on the cloud and can support their decision-making.
                 </p>
                 <div className="cltt-actt">
                   <NavLink to="/products/microsoft-dynamics-nav/">
@@ -334,15 +329,7 @@ const Erp = () => {
             <div className="col-lg-5 align-self-center">
               <div className="commen-rit-info">
                 <h2>Dynamics AX</h2>
-                <p>
-                  Optimize your finance & operations with Microsoft Dynamics AX
-                  (Axapta) to bring transparency across your financial flow. It
-                  helps enterprises to globally manage, automate, and roll out
-                  processes whether on-premises or on-cloud embedded with
-                  AI-based data-driven insights that help to accelerate
-                  processes and support to make informed and productive
-                  decisions.
-                </p>
+                <p>Microsoft Dynamics AX is designed to automate, streamline, and optimize operations with improved visibility and transparency into your financial processes. When you implement Dynamics AX, it takes responsibility to globally manage your data, operations, and people involved in your financial practices. AI intelligence helps to prepare reports and key analytics to make instant productive decisions.</p>
                 <div className="cltt-actt">
                   <NavLink to="/products/microsoft-dynamics-ax/">
                     Learn More
@@ -366,16 +353,7 @@ const Erp = () => {
             <div className="col-lg-5 align-self-center">
               <div className="commen-rit-info">
                 <h2>Dynamics GP</h2>
-                <p>
-                  Microsoft Dynamics GP (Great Plains) is an efficient
-                  accounting and ERP package wrapped with artificial
-                  intelligence techniques to gain depth financial insights
-                  leveraging the recent historical data combined with the
-                  current financial flow and involved strategies. Designed for
-                  small to mid-sized organizations, Dynamics GP helps
-                  enterprises to streamline their finance and accounting to
-                  impact overall business growth.
-                </p>
+                <p>To manage your entire accounting and ERP part, Microsoft Dynamics GP can be leveraged. Its AI data capabilities can help you to acquire improved financial visibility to seamlessly manage the process flow and streamline the enterprise data. With Dynamics GP, enterprises can manage their day-to-day practices, monitor & control the flow, and drive effective strategies to maximize the returns.</p>
                 <div className="cltt-actt">
                   <NavLink to="/products/microsoft-dynamics-gp/">
                     Learn More
