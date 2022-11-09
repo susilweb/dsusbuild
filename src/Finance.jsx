@@ -474,113 +474,6 @@ const Finance = () => {
         </div>
       </section>
 
-      <section className="blogs-extra">
-        <div className="container">
-          <header className="section-header">
-            <h2>Explore Our Recent Blogs & Resources</h2>
-            <p>Whether you are a start-up, an SMB, or an enterprise, the Dynamics Square blog is the best place to get inspired and learn more about Microsoft Business Applications.</p>
-          </header>
-          <div className="row top-2 gx-5">
-            <Blog />
-            <div className="col-lg-6">
-              <div className="blogs-extra-title">
-                <h3>Documents</h3>
-              </div>
-              <div className="blogs-extra-right">
-                <ul>
-                  <li>
-                    <NavLink
-                      target="_blank"
-                      to="/assets/pdf/Nucleus-Research.pdf"
-                    >
-                      <i className="bi bi-file-earmark-pdf"></i>Nucleus Research
-                      Report 2020 - Dynamics 365 Finance
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink to="/assets/pdf/forrester.pdf" target="_blank">
-                      <i className="bi bi-file-earmark-pdf"></i>Forrester Report
-                      - The Economic Impact of Dynamics 365 Finance
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink
-                      to="/assets/pdf/Top-8-Trends-Every-CFO-Should-Know.pdf"
-                      target="_blank"
-                    >
-                      <i className="bi bi-file-earmark-pdf"></i>Top 8 Trends
-                      Every CFO Should Know
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink
-                      to="/assets/pdf/A-New-Approach-to-Evaluating-ERP.pdf"
-                      target="_blank"
-                    >
-                      <i className="bi bi-file-earmark-pdf"></i>A New Approach
-                      to Evaluating ERP
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink
-                      to="/assets/pdf/Modular-ERP-The-Key-to-Corporate-Agility.pdf"
-                      target="_blank"
-                    >
-                      <i className="bi bi-file-earmark-pdf"></i>Modular ERP: The
-                      Key to Corporate Agility
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink
-                      to="/assets/pdf/Dynamics_365_Enterprise_edition_Licensing_Guide.pdf"
-                      target="_blank"
-                    >
-                      <i className="bi bi-file-earmark-pdf"></i>Licensing Guide
-                    </NavLink>
-                  </li>
-                </ul>
-              </div>
-              <div className="blogs-extra-title">
-                <h3>Learn More</h3>
-              </div>
-              <div className="blogs-extra-right">
-                <ul>
-                  <li>
-                    <ExternalLink
-                      rel=""
-                      href="https://youtu.be/jTgqXkQvv1c"
-                      target="_self"
-                    >
-                      <i className="bi bi-box-arrow-up-right"></i>Dynamics 365
-                      Finance: Collections automation
-                    </ExternalLink>
-                  </li>
-                  <li>
-                    <ExternalLink
-                      rel=""
-                      href="https://youtu.be/jTgqXkQvv1c"
-                      target="_self"
-                    >
-                      <i className="bi bi-box-arrow-up-right"></i>Dynamics 365
-                      Finance: Vendor invoice automation
-                    </ExternalLink>
-                  </li>
-                  <li>
-                    <ExternalLink
-                      rel=""
-                      href="https://youtu.be/V8EErSL028w"
-                      target="_self"
-                    >
-                      <i className="bi bi-box-arrow-up-right"></i>Dynamics 365
-                      Finance: Asset leasing
-                    </ExternalLink>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
       <section className="solution-faq faq">
         <div className="container">
           <div className="row justify-content-center">
@@ -776,6 +669,115 @@ const Finance = () => {
           </div>
         </div>
       </section>
+
+      <section className="blogs-extra">
+        <div className="container">
+          <header className="section-header">
+            <h2>Explore Our Recent Blogs & Resources</h2>
+            <p>Whether you are a start-up, an SMB, or an enterprise, the Dynamics Square blog is the best place to get inspired and learn more about Microsoft Business Applications.</p>
+          </header>
+          <div className="row top-2 gx-5">
+            <Blog />
+            <div className="col-lg-6">
+              <div className="blogs-extra-title">
+                <h3>Documents</h3>
+              </div>
+              <div className="blogs-extra-right">
+                <ul>
+                  <li>
+                    <NavLink
+                      target="_blank"
+                      to="/assets/pdf/Nucleus-Research.pdf"
+                    >
+                      <i className="bi bi-file-earmark-pdf"></i>Nucleus Research
+                      Report 2020 - Dynamics 365 Finance
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink to="/assets/pdf/forrester.pdf" target="_blank">
+                      <i className="bi bi-file-earmark-pdf"></i>Forrester Report
+                      - The Economic Impact of Dynamics 365 Finance
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink
+                      to="/assets/pdf/Top-8-Trends-Every-CFO-Should-Know.pdf"
+                      target="_blank"
+                    >
+                      <i className="bi bi-file-earmark-pdf"></i>Top 8 Trends
+                      Every CFO Should Know
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink
+                      to="/assets/pdf/A-New-Approach-to-Evaluating-ERP.pdf"
+                      target="_blank"
+                    >
+                      <i className="bi bi-file-earmark-pdf"></i>A New Approach
+                      to Evaluating ERP
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink
+                      to="/assets/pdf/Modular-ERP-The-Key-to-Corporate-Agility.pdf"
+                      target="_blank"
+                    >
+                      <i className="bi bi-file-earmark-pdf"></i>Modular ERP: The
+                      Key to Corporate Agility
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink
+                      to="/assets/pdf/Dynamics_365_Enterprise_edition_Licensing_Guide.pdf"
+                      target="_blank"
+                    >
+                      <i className="bi bi-file-earmark-pdf"></i>Licensing Guide
+                    </NavLink>
+                  </li>
+                </ul>
+              </div>
+              <div className="blogs-extra-title">
+                <h3>Learn More</h3>
+              </div>
+              <div className="blogs-extra-right">
+                <ul>
+                  <li>
+                    <ExternalLink
+                      rel=""
+                      href="https://youtu.be/jTgqXkQvv1c"
+                      target="_self"
+                    >
+                      <i className="bi bi-box-arrow-up-right"></i>Dynamics 365
+                      Finance: Collections automation
+                    </ExternalLink>
+                  </li>
+                  <li>
+                    <ExternalLink
+                      rel=""
+                      href="https://youtu.be/jTgqXkQvv1c"
+                      target="_self"
+                    >
+                      <i className="bi bi-box-arrow-up-right"></i>Dynamics 365
+                      Finance: Vendor invoice automation
+                    </ExternalLink>
+                  </li>
+                  <li>
+                    <ExternalLink
+                      rel=""
+                      href="https://youtu.be/V8EErSL028w"
+                      target="_self"
+                    >
+                      <i className="bi bi-box-arrow-up-right"></i>Dynamics 365
+                      Finance: Asset leasing
+                    </ExternalLink>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+   
     </>
   );
 };

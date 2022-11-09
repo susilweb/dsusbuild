@@ -8,7 +8,7 @@ import { useHistory, useLocation } from "react-router-dom";
 
 const StartGuide = () => {
   const history = useHistory();
-
+  const currentUrl = window.location.href;
   const [display, setDisplay] = useState("dspn");
 
   function sendEmail(e) {
@@ -17,10 +17,10 @@ const StartGuide = () => {
 
     emailjs
       .sendForm(
-        "service_z1ba46f",
-        "template_dx6ksie",
+        "service_cxxhqoq",
+        "template_f80fich",
         e.target,
-        "aB1cszau6H32ivpeD"
+        "7Ae4EIVY__86NsTQD"
       )
       .then((res) => {
         history.push("/thank-you-for-registration/");
@@ -448,19 +448,20 @@ const StartGuide = () => {
                     <input
                       type="text"
                       className="form-control"
-                      placeholder="* Full Name"
+                      placeholder="*Full Name"
                       name="name"
                       required
                     />
+                    <input type="hidden" name="url" value={currentUrl} />
                   </div>
 
                   <div className="mb-3">
                     <input
                       type="email"
                       className="form-control"
-                      placeholder="* Work Email"
+                      placeholder="*Work Email"
                       name="email"
-                      pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                      pattern="^[a-zA-Z0-9._%+-]+@(?!gmail.com)(?!yahoo.com)(?!hotmail.com)(?!yahoo.co.in)(?!aol.com)(?!live.com)(?!outlook.com)[a-zA-Z0-9_-]+.[a-zA-Z0-9-.]{2,61}$"
                       required
                     />
                   </div>
@@ -468,7 +469,7 @@ const StartGuide = () => {
                     <input
                       type="text"
                       className="form-control"
-                      placeholder="Company Name"
+                      placeholder="*Company Name"
                       name="company_name"
                       required
                     />
@@ -477,7 +478,7 @@ const StartGuide = () => {
                     <input
                       type="tel"
                       className="form-control"
-                      placeholder="Phone Number"
+                      placeholder="*Phone Number"
                       name="phone"
                       pattern="^\d{10,13}$"
                       required

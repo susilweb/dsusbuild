@@ -14,10 +14,10 @@ const FooterBtoomSuscriber = () => {
 
     emailjs
       .sendForm(
-        "service_z1ba46f",
-        "template_1zmk23c",
+        "service_cxxhqoq",
+        "template_601riyc",
         e.target,
-        "aB1cszau6H32ivpeD"
+        "7Ae4EIVY__86NsTQD"
       )
       .then((res) => {
         console.log(res);

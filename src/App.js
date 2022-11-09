@@ -123,6 +123,7 @@ import DynamicsEmailerPowerBIGuide from "./DynamicsEmailerPowerBIGuide";
 import DynamicsEmailerCRM from "./DynamicsEmailerCRM";
 import SupplyChainImplementationServices from "./SupplyChainImplementationServices";
 import MicrosoftDynamicsPartnerTexas from "./MicrosoftDynamicsPartnerTexas";
+import EmailGpToBc from "./EmailGpToBc";
 
 const App = () => {
   return (
@@ -580,6 +581,12 @@ const App = () => {
           path="/microsoft-dynamics-365-partner-in-texas/"
           component={MicrosoftDynamicsPartnerTexas}
         />
+        <Route
+          exact
+          path="/email-gp-to-bc/"
+          component={EmailGpToBc}
+        />
+
         <Route exact path="/components/" component={MyComponents} />
         <Route exact path="/form2/" component={Form2} />
         <Redirect to="/404" component={Error404} />

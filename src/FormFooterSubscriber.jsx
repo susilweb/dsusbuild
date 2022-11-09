@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 
 const FormFooterSubscriber = () => {
   const [display, setDisplay] = useState("const2");
+  const currentUrl = window.location.href;
   const history = useHistory();
   function sendEmail(e) {
     setDisplay("spinner-border");
@@ -14,10 +15,10 @@ const FormFooterSubscriber = () => {
 
     emailjs
       .sendForm(
-        "service_z1ba46f",
-        "template_1zmk23c",
+        "service_cxxhqoq",
+        "template_601riyc",
         e.target,
-        "aB1cszau6H32ivpeD"
+        "7Ae4EIVY__86NsTQD"
       )
       .then((res) => {
         console.log(res);
@@ -40,6 +41,7 @@ const FormFooterSubscriber = () => {
               name="name"
               required
             />
+            <input type="hidden" name="url" value={currentUrl} />
           </div>
           <div className="mb-3">
             <input

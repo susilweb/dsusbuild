@@ -36,7 +36,7 @@ const FormCampaign = () => {
           <input
             type="text"
             className="form-control"
-            placeholder="* Full Name"
+            placeholder="*Full Name"
             name="name"
             required
           />
@@ -46,9 +46,9 @@ const FormCampaign = () => {
           <input
             type="email"
             className="form-control"
-            placeholder="* Work Email"
+            placeholder="*Work Email"
             name="email"
-            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+            pattern="^[a-zA-Z0-9._%+-]+@(?!gmail.com)(?!yahoo.com)(?!hotmail.com)(?!yahoo.co.in)(?!aol.com)(?!live.com)(?!outlook.com)[a-zA-Z0-9_-]+.[a-zA-Z0-9-.]{2,61}$"
             required
           />
         </div>
@@ -56,7 +56,7 @@ const FormCampaign = () => {
           <input
             type="text"
             className="form-control"
-            placeholder="* Company Name"
+            placeholder="*Company Name"
             name="company_name"
             required
           />
@@ -65,7 +65,7 @@ const FormCampaign = () => {
           <input
             type="tel"
             className="form-control"
-            placeholder="* Phone Number"
+            placeholder="*Phone Number"
             name="phone"
             pattern="^\d{10,13}$"
             required
@@ -75,9 +75,10 @@ const FormCampaign = () => {
           <textarea
             className="form-control"
             id="exampleFormControlTextarea1"
-            placeholder="* How Can We Help You?"
+            placeholder="*How Can We Help You?"
             rows="3"
             name="message"
+            required
           ></textarea>
         </div>
         <div className="mb-3 form-check">
