@@ -124,7 +124,9 @@ import DynamicsEmailerCRM from "./DynamicsEmailerCRM";
 import SupplyChainImplementationServices from "./SupplyChainImplementationServices";
 import MicrosoftDynamicsPartnerTexas from "./MicrosoftDynamicsPartnerTexas";
 import EmailGpToBc from "./EmailGpToBc";
-
+import StartGuideOne from "./StartGuideOne";
+import DownloadPdfFinance from "./DownloadPdfFinance";
+import EmailAxToFinacnce from "./EmailAxToFinacnce";
 const App = () => {
   return (
     <>
@@ -571,7 +573,7 @@ const App = () => {
           path="/email-dynamics365-crm/"
           component={DynamicsEmailerCRM}
         />
-     <Route
+        <Route
           exact
           path="/dynamics-365-sales-implementation/"
           component={SupplyChainImplementationServices}
@@ -583,8 +585,19 @@ const App = () => {
         />
         <Route
           exact
-          path="/email-gp-to-bc/"
-          component={EmailGpToBc}
+          path="/ebook/dynamics-365-finance/"
+          component={StartGuideOne}
+        />
+        <Route
+          exact
+          path="/guides/download/Pdf-dynamics-finance/"
+          component={DownloadPdfFinance}
+        />
+        <Route exact path="/email-gp-to-bc/" component={EmailGpToBc} />
+        <Route
+          exact
+          path="/email-ax-to-finance/"
+          component={EmailAxToFinacnce}
         />
 
         <Route exact path="/components/" component={MyComponents} />

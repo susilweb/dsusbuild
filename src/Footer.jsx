@@ -20,7 +20,8 @@ const Footer = () => {
     pathname === "/email-dynamics365-crm/" ||
     pathname === "/emailer-power-bi/" ||
     pathname === "/subscribe-updates/" ||
-    pathname === "/email-gp-to-bc/"
+    pathname === "/email-gp-to-bc/" ||
+    pathname === "/email-ax-to-finance/"
   ) {
     //setStyle("dspn");
     return null;
@@ -32,10 +33,10 @@ const Footer = () => {
 
     emailjs
       .sendForm(
-        "service_ccdtu47",
-        "template_st2w96e",
+        "service_ioc4m3m",
+        "template_gaio8jq",
         e.target,
-        "QWSz4kg6AvQ5O1nDN"
+        "Z1IXZpfjgq01m5vW7"
       )
       .then((res) => {
         //alert("success");
@@ -489,7 +490,7 @@ const Footer = () => {
             <div className="footer-extra-link">
               <NavLink to="/terms-of-use/">Terms of Use </NavLink>
               <NavLink to="/cookie-policy/">| Cookie </NavLink>
-              <NavLink to="/sitemap.xml">| Sitemap</NavLink>
+              {/* <NavLink to="/sitemap.xml">| Sitemap</NavLink> */}
             </div>
           </div>
         </div>

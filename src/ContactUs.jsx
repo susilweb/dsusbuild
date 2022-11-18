@@ -873,7 +873,7 @@ const ContactUs = () => {
             <div className="footer-extra-link">
               <NavLink to="/terms-of-use/">Terms of Use </NavLink>
               <NavLink to="/cookie-policy/">| Cookie </NavLink>
-              <NavLink to="/sitemap.xml">| Sitemap</NavLink>
+              {/* <NavLink to="/sitemap.xml">| Sitemap</NavLink> */}
             </div>
           </div>
         </div>

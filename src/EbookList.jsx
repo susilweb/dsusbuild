@@ -68,6 +68,35 @@ const EbookList = () => {
                   aria-labelledby="v-pills-home-tab"
                 >
                   <div className="row">
+                  <div className="col-lg-6">
+                      <div className="card card-custom-1 p-3">
+                        <NavLink
+                          to="/ebook/dynamics-365-finance/"
+                          className="over-ff text-center"
+                        >
+                          <img
+                            className="card-img-top"
+                            src="/assets/img/nav-guide-pic.png"
+                            alt="ebooh-img"
+                          />
+                        </NavLink>
+                        <div className="card-body">
+                          <h5 className="card-title">
+                            <NavLink to="/ebook/dynamics-365-finance/">
+                            The Extensive Guide to Dynamics 365 Finance
+                            </NavLink>
+                          </h5>
+                          <div className="btn-003 btn-009">
+                            <NavLink
+                              className="btn btn-sm btn-danger"
+                              to="/ebook/dynamics-365-finance/"
+                            >
+                              Read Now
+                            </NavLink>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                     <div className="col-lg-6">
                       <div className="card card-custom-1 p-3">
                         <NavLink
