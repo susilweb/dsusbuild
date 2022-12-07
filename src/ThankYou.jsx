@@ -31,9 +31,8 @@ const ThankYou = () => {
           <div className="row justify-content-center ">
             <div className="col-lg-7 align-self-center text-center custom0004">
               <h1>Thank You!</h1>
-              <h2>
-                One of our Microsoft Consultants will get in touch with you shortly!</h2>
-              <p>Please press below button to know more about us and the solutions we provide.</p>
+              <p>
+                One of our Microsoft Consultants will get in touch with you shortly! <br />Please press below button to know more about us and the solutions we provide.</p>
               <div className="text-center">
                 <div className="">
                   <NavLink to="/" className="btn-get-started scrollto">

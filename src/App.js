@@ -113,7 +113,7 @@ import CaseStudyShimco from "./CaseStudyShimco";
 import Form2 from "./Form2";
 import StartGuide from "./StartGuide";
 import Preregistration from "./Preregistration";
-import UseScript from "./UseScript";
+// import UseScript from "./UseScript";
 
 import PowerBIGuide from "./PowerBIGuide";
 import SupportDynamics365Mailer from "./SupportDynamics365Mailer";
@@ -127,6 +127,7 @@ import EmailGpToBc from "./EmailGpToBc";
 import StartGuideOne from "./StartGuideOne";
 import DownloadPdfFinance from "./DownloadPdfFinance";
 import EmailAxToFinacnce from "./EmailAxToFinacnce";
+import EmailWMS from "./EmailWMS";
 const App = () => {
   return (
     <>
@@ -599,13 +600,17 @@ const App = () => {
           path="/email-ax-to-finance/"
           component={EmailAxToFinacnce}
         />
-
+        <Route
+          exact
+          path="/email-wms/"
+          component={EmailWMS}
+        />
         <Route exact path="/components/" component={MyComponents} />
         <Route exact path="/form2/" component={Form2} />
-        <Redirect to="/404" component={Error404} />
+        <Redirect to="/404/" component={Error404} />
         <Home />
       </Switch>
-      <UseScript />
+      {/* <UseScript /> */}
       <Footer />
       <CookieConsent
         location="bottom"

@@ -21,7 +21,8 @@ const Footer = () => {
     pathname === "/emailer-power-bi/" ||
     pathname === "/subscribe-updates/" ||
     pathname === "/email-gp-to-bc/" ||
-    pathname === "/email-ax-to-finance/"
+    pathname === "/email-ax-to-finance/" ||
+    pathname === "/email-wms/"
   ) {
     //setStyle("dspn");
     return null;
